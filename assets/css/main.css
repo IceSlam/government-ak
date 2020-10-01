@@ -1,0 +1,49 @@
+body {
+
+}
+
+.is-page .is-navbar__top {
+  background: linear-gradient(90deg, #00466E 0%, #009AD2 51.04%, #0A34D0 100%);
+  padding: 10px 15px;
+}
+
+.is-page .is-navbar__top li {
+  margin-right: 2.5rem;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+}
+
+.is-page .is-navbar__top a {
+  color: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 100%;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+}
+
+.is-page .is-navbar__top a img {
+  margin-right: 10px;
+}
+
+.is-page .is-navbar__top li.list-divider {
+  opacity: 0.3;
+  border: 1px solid #FFFFFF;
+  transform: rotate(0deg);
+}
+
+.is-page .is-navbar__top li.nav-item.contacts {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.is-page .is-navbar__top .navbar-nav.ml-auto li {
+  margin-right: 0;
+  margin-left: 2.5rem;
+}
