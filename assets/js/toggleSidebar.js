@@ -3,6 +3,5 @@ function toggleSidebar() {
 }
 
 function openSubItem() {
-  document.getElementById('sub-menu').classList.toggle('open');
-
+  document.getElementById('sub-menu').classList.toggle('open')
 }
