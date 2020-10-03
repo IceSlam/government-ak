@@ -1,10 +1,189 @@
-body {
+/* System variables */
 
+html,
+body {
+  height: 100%;
+}
+
+aside {
+  float: left;
+  max-width: 240px;
+  min-height: 100%;
+  width: 100%;
+  background: #E4EDF5;
+  box-shadow: inset -1px 0px 0px #E9F0F8;
+}
+
+aside.show {
+  display: block;
+}
+
+.is-sidebar .is-sidebar__events {
+  padding: 20px 15px;
+}
+
+.is-sidebar .event-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: #191F22;
+}
+
+.is-sidebar .events-date {
+  background: #fff;
+  padding: 5px 4px 0;
+}
+
+.is-sidebar .events-date .item {
+  max-width: 25px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.is-sidebar .events-date .item.active .number {
+  background: #DF193D;
+}
+
+.is-sidebar .events-date .item.active .day {
+  color: #DF193D;
+}
+
+.is-sidebar .events-date .item span {
+  display: block;
+  text-align: center;
+}
+
+.is-sidebar .events-date .item .number {
+  max-height: 30px;
+  height: 100%;
+  background: #2B5D84;
+  color: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  padding: 6px 0;
+}
+
+.is-sidebar .events-date .item .day {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #373735;
+  margin-top: 2px;
+}
+
+.is-sidebar .is-sidebar__menu .nav-item {
+  border-top: 1px solid #D1DEE9;
+  padding: 1.25rem;
+}
+
+.is-sidebar .is-sidebar__menu .nav-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 120%;
+  color: #191F22;
+  cursor: pointer;
+}
+
+.is-sidebar .is-sidebar__menu .nav-item div {
+  width: 0;
+  max-width: 240px;
+  background: #ccc;
+  transition: all .625s;
+  position: absolute;
+  top: 0;
+  padding: 3rem 0 0;
+  z-index: 0;
+  color: red;
+  visibility: hidden;
+}
+
+.is-sidebar .is-sidebar__menu .nav-item div.open {
+  width: 100%;
+  transform: translateX(220px);
+  transition: all .625s;
+  visibility: visible;
+}
+
+.is-sidebar .is-sidebar__date {
+  background: #CDDDEB;
+  padding: 10px;
+  justify-content: center;
+}
+
+.is-sidebar .is-sidebar__date .calendar {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 0;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  text-align: left;
+  justify-content: center;
+}
+
+.is-sidebar .is-sidebar__date .calendar div {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+}
+
+.is-sidebar .is-sidebar__date .calendar .text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 130%;
+  color: #2B5D84;
+  margin-left: 10px;
+}
+
+.is-sidebar .is-sidebar__catalog {
+  background: #008ED8;
+  padding: 1rem 0;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+}
+
+.is-sidebar .is-sidebar__catalog .btn {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.is-sidebar .is-sidebar__catalog .btn img {
+  margin-left: 10px;
 }
 
 .is-page .is-navbar__top {
   background: linear-gradient(90deg, #00466E 0%, #009AD2 51.04%, #0A34D0 100%);
   padding: 10px 15px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  z-index: 10;
 }
 
 .is-page .is-navbar__top li {
