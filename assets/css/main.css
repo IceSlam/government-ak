@@ -388,6 +388,7 @@ aside.show {
   text-transform: uppercase;
   color: #008ED8;
   align-items: center;
+  max-height: 66px;
 }
 
 .is-index .is-announcement__stream .text {
@@ -396,6 +397,41 @@ aside.show {
   display: flex;
   text-align: left;
   margin-left: 1rem;
+}
+
+.is-index .is-announcement .is-announcement__announce {
+  background: #FFFFFF;
+  border: 3px solid #008ED8;
+  box-sizing: border-box;
+  border-radius: 5px;
+  max-height: 66px;
+  height: 100%;
+  padding: .5rem;
+}
+
+.is-index .is-announcement__announce-content {
+  background: #FFFFFF;
+  border: 1px dashed #008ED8;
+  box-sizing: border-box;
+  border-radius: 3px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  max-height: 50px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.is-index .is-announcement__announce-content p {
+  margin-bottom: 0;
+  margin-left: 1.25rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 120%;
+  color: #008ED8;
 }
 
 .is-index .is-themes {
