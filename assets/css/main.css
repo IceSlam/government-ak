@@ -438,12 +438,14 @@ aside.show {
   color: #008ED8;
 }
 
-.is-index .is-themes {
+.is-index .is-themes,
+.is-index .is-news {
   background: #FFFFFF;
   border: 1px solid #E9F0F8;
   box-sizing: border-box;
   border-radius: 5px;
   padding: 1.25rem 1.25rem 0;
+  margin-bottom: 1.25rem;
 }
 
 .is-index .is-themes .is-themes__title {
@@ -608,4 +610,86 @@ aside.show {
   background: #008ED8;
   border-radius: 2px;
   padding: 7px 10px;
+}
+
+.is-index .is-news {}
+
+.is-index .is-news__title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 120%;
+  color: #191F22;
+}
+
+.is-index .is-news__tabs .nav-item .nav-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #191F22;
+  padding: .5rem 1rem;
+  margin-bottom: 0;
+}
+
+.is-index .is-news__tabs .nav-item .nav-link.active,
+.is-index .is-news__tabs .nav-item .nav-link.all-news {
+  border-bottom: none;
+  color: #008ED8;
+  margin-bottom: 0;
+}
+
+.is-index .is-news__tabs .nav-item .nav-link.all-news {
+ }
+
+.is-index .is-news .is-news__subscribe {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #ccc;
+  padding: 13px 13px;
+  background: #008ED8;
+  border-radius: 3px;
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;align-items: center;
+  justify-content: center;
+}
+
+.is-index .is-news .is-news__subscribe img {
+  margin-right: 10px;
+}
+
+.is-index .is-news .is-news__card {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #FFFFFF;
+  border: 3px solid #ECF4FC;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 1.25rem;
+  min-height: 191px;
+  position: relative;
+}
+
+.is-index .is-news .is-news__card .badge {
+  background: #F8FAFC;
+  border-radius: 2px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 120%;
+  position: absolute;
+  display: flex;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ADC0CD;
+  margin: 0 auto;
+  left: 20px;
+  top: 20px;
+  padding: 6px;
 }
