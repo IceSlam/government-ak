@@ -5,17 +5,28 @@ body {
   height: 100%;
 }
 
+.is-page .is-wrapper {
+  padding: 0rem .75rem !important;
+}
+
 main {
   background: #F3F6F9;
+  padding: 0 !important;
+}
+
+main .is-content {
+
+  padding-left: 1.625rem !important;
+  padding-right: 1.875rem !important;
 }
 
 aside {
-  float: left;
-  max-width: 240px;
+  max-width: 240px !important;
   min-height: 100%;
   width: 100%;
   background: #E4EDF5;
   box-shadow: inset -1px 0px 0px #E9F0F8;
+  padding: 0 !important;
 }
 
 aside.show {
@@ -252,6 +263,7 @@ aside.show {
   align-items: center;
   -webkit-box-shadow: none;
   box-shadow: none;
+  padding: 0 !important;
 }
 
 .is-page .is-header__title .text {
@@ -304,26 +316,26 @@ aside.show {
   border: none;
 }
 
-.is-socials .btn {
+.is-page .is-header .is-socials .btn {
   -webkit-box-shadow: none;
   box-shadow: none;
   padding: 5px;
   font-size: 1.25rem;
 }
 
-.is-socials .btn.rss {
+.is-page .is-header .is-socials .btn.rss {
   color: #fd9d3e;
 }
 
-.is-socials .btn.vk {
+.is-page .is-header .is-socials .btn.vk {
   color: #4a76a8;
 }
 
-.is-socials .btn.ok {
+.is-page .is-header .is-socials .btn.ok {
   color: #ee8208;
 }
 
-.is-socials .btn.fb {
+.is-page .is-header .is-socials .btn.fb {
   color: #1877f2;
 }
 
@@ -331,11 +343,11 @@ aside.show {
   color: #24a1de;
 }
 
-.is-socials .btn.inst{
+.is-page .is-header .is-socials .btn.inst{
   color: #e33165;
 }
 
-.is-socials .form-select {
+.is-page .is-header .is-socials .form-select {
   border: 1px solid #008ED8;
   margin-left: 2rem;
   width: 60px;
@@ -351,4 +363,44 @@ aside.show {
   color: #2B5D84;
   background-image: url(../img/gak_select_arrow.svg);
   background-size: 6px 4px;
+}
+
+/* Index page */
+
+.is-index .is-announcement {
+  padding: 1.875rem 0 1.5rem;
+}
+
+.is-index .is-announcement .is-announcement__stream {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 1rem 1.25rem;
+  background: #FFFFFF;
+  border: 3px solid #008ED8;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 110%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #008ED8;
+  align-items: center;
+}
+
+.is-index .is-announcement__stream .text {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.is-index .is-themes {
+  background: #FFFFFF;
+  border: 1px solid #E9F0F8;
+  box-sizing: border-box;
+  border-radius: 5px;
 }

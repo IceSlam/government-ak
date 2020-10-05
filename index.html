@@ -27,7 +27,7 @@
     <link href="./assets/css/media.css" rel="stylesheet" />
   </head>
 
-  <body class="is-page">
+  <body class="is-page is-index">
 
     <nav id="top-navbar" class="navbar navbar-expand-sm is-navbar__top container-fluid">
       <ul class="navbar-nav mr-auto">
@@ -84,221 +84,285 @@
         </li>
       </ul>
     </nav>
-    <div class="wrapper">
-      <aside id="sidebar" class="is-sidebar">
-        <div class="is-sidebar__events">
-          <h3 class="event-title">
-            Мероприятия
-          </h3>
-          <div class="events-date">
-            <p class="item btn">
-              <span class="number">
-                7
-              </span>
-              <span class="day">
-                пн
-              </span>
-            </p>
-            <p class="item btn active">
-              <span class="number">
-                8
-              </span>
-              <span class="day">
-                вт
-              </span>
-            </p>
-            <p class="item btn">
-              <span class="number">
-                9
-              </span>
-              <span class="day">
-                ср
-              </span>
-            </p>
-            <p class="item btn">
-              <span class="number">
-                10
-              </span>
-              <span class="day">
-                чт
-              </span>
-            </p>
-            <p class="item btn">
-              <span class="number">
-                11
-              </span>
-              <span class="day">
-                пт
-              </span>
-            </p>
-            <p class="item btn">
-              <span class="number">
-                12
-              </span>
-              <span class="day">
-                сб
-              </span>
-            </p>
-            <p class="item btn">
-              <span class="number">
-                13
-              </span>
-              <span class="day">
-                вс
-              </span>
-            </p>
+    <div class="is-wrapper container-fluid">
+      <div class="row">
+        <aside id="sidebar" class="is-sidebar col">
+          <div class="is-sidebar__events">
+            <h3 class="event-title">
+              Мероприятия
+            </h3>
+            <div class="events-date">
+              <p class="item btn">
+                <span class="number">
+                  7
+                </span>
+                <span class="day">
+                  пн
+                </span>
+              </p>
+              <p class="item btn active">
+                <span class="number">
+                  8
+                </span>
+                <span class="day">
+                  вт
+                </span>
+              </p>
+              <p class="item btn">
+                <span class="number">
+                  9
+                </span>
+                <span class="day">
+                  ср
+                </span>
+              </p>
+              <p class="item btn">
+                <span class="number">
+                  10
+                </span>
+                <span class="day">
+                  чт
+                </span>
+              </p>
+              <p class="item btn">
+                <span class="number">
+                  11
+                </span>
+                <span class="day">
+                  пт
+                </span>
+              </p>
+              <p class="item btn">
+                <span class="number">
+                  12
+                </span>
+                <span class="day">
+                  сб
+                </span>
+              </p>
+              <p class="item btn">
+                <span class="number">
+                  13
+                </span>
+                <span class="day">
+                  вс
+                </span>
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="is-sidebar__menu">
-          <menu class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" onclick="openSubItem()">
-                О регионе
-              </a>
-              <div id="sub-menu">
-                1
+          <div class="is-sidebar__menu">
+            <menu class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" onclick="openSubItem()">
+                  О регионе
+                </a>
+                <div id="sub-menu">
+                  1
+                </div>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">
+                  Губернатор
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">
+                  Власть
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">
+                  Документы
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">
+                  Для инвесторов
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">
+                  Пресс-центр
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">
+                  Доска почета
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">
+                  Для граждан
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">
+                  Туризм
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">
+                  Сайты органов исполнительной власти Алтайского края
+                </a>
+              </li>
+            </menu>
+          </div>
+          <div class="is-sidebar__date">
+            <div class="calendar btn">
+              <div class="img">
+                <img src="./assets/img/dak_calendar_icon.svg" alt="">
               </div>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">
-                Губернатор
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">
-                Власть
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">
-                Документы
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">
-                Для инвесторов
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">
-                Пресс-центр
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">
-                Доска почета
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">
-                Для граждан
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">
-                Туризм
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">
-                Сайты органов исполнительной власти Алтайского края
-              </a>
-            </li>
-          </menu>
-        </div>
-        <div class="is-sidebar__date">
-          <div class="calendar btn">
-            <div class="img">
-              <img src="./assets/img/dak_calendar_icon.svg" alt="">
-            </div>
-            <div class="text">
-                Вторник
-                <br>
-                10.12.2019 г. / 15:30
+              <div class="text">
+                  Вторник
+                  <br>
+                  10.12.2019 г. / 15:30
+              </div>
             </div>
           </div>
-        </div>
-        <div class="is-sidebar__catalog">
-          <a class="btn">
-            Каталог сайтов
-            <img src="./assets/img/gak_catalog_icon.svg" alt="">
-          </a>
-        </div>
-      </aside>
-      <main id="main">
-        <header class="container-fluid is-header">
-          <div class="row">
-            <div class="col-md-5 d-flex align-items-center">
-              <a href="#" class="btn is-header__title">
-                <div class="logo">
-                  <img src="./assets/img/gak_logo.png" alt="">
+          <div class="is-sidebar__catalog">
+            <a class="btn">
+              Каталог сайтов
+              <img src="./assets/img/gak_catalog_icon.svg" alt="">
+            </a>
+          </div>
+        </aside>
+        <main id="main" class="is-main col">
+          <header class="container-fluid is-header">
+            <div class="row">
+              <div class="col-md-5 d-flex align-items-center">
+                <a href="#" class="btn is-header__title">
+                  <div class="logo">
+                    <img src="./assets/img/gak_logo.png" alt="">
+                  </div>
+                  <div class="text">
+                    <span class="title">
+                      Алтайский край
+                    </span>
+                    <br>
+                    <span class="sub">
+                      Официальный сайт правительства
+                    </span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4 d-flex align-items-center">
+                <div class="input-group is-header__search">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Поиск по сайту"
+                    aria-label="Поиск по сайту"
+                    aria-describedby="button-addon2"
+                  />
+                  <button
+                    class="btn btn-outline-primary"
+                    type="button"
+                    id="button-addon2"
+                    data-ripple-color="dark"
+                  >
+                    <img src="./assets/img/gak_search_icon.svg" alt="">
+                  </button>
                 </div>
-                <div class="text">
-                  <span class="title">
-                    Алтайский край
-                  </span>
-                  <br>
-                  <span class="sub">
-                    Официальный сайт правительства
-                  </span>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-4 d-flex align-items-center">
-              <div class="input-group is-header__search">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Поиск по сайту"
-                  aria-label="Поиск по сайту"
-                  aria-describedby="button-addon2"
-                />
-                <button
-                  class="btn btn-outline-primary"
-                  type="button"
-                  id="button-addon2"
-                  data-ripple-color="dark"
-                >
-                  <img src="./assets/img/gak_search_icon.svg" alt="">
+              </div>
+              <div class="col-md-3 is-socials d-flex align-items-center">
+                <a href="#" class="btn rss">
+                  <i class="fas fa-rss"></i>
+                </a>
+                <a href="#" class="btn vk">
+                  <i class="fab fa-vk"></i>
+                </a>
+                <a href="#" class="btn ok">
+                  <i class="fab fa-odnoklassniki"></i>
+                </a>
+                <a href="#" class="btn inst">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="btn tg">
+                  <i class="fab fa-telegram-plane"></i>
+                </a>
+                <a href="#" class="btn fb">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <select class="form-select">
+                  <option value="RU" selected>RU</option>
+                  <option value="EN">EN</option>
+                </select>
+                <button class="btn d-none" onclick="toggleSidebar()">
+                  <i class="fas fa-cog"></i>
                 </button>
               </div>
             </div>
-            <div class="col-md-3 is-socials d-flex align-items-center">
-              <a href="#" class="btn rss">
-                <i class="fas fa-rss"></i>
-              </a>
-              <a href="#" class="btn vk">
-                <i class="fab fa-vk"></i>
-              </a>
-              <a href="#" class="btn ok">
-                <i class="fab fa-odnoklassniki"></i>
-              </a>
-              <a href="#" class="btn inst">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a href="#" class="btn tg">
-                <i class="fab fa-telegram-plane"></i>
-              </a>
-              <a href="#" class="btn fb">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <select class="form-select">
-                <option value="RU" selected>RU</option>
-                <option value="EN">EN</option>
-              </select>
-              <button class="btn d-none" onclick="toggleSidebar()">
-                <i class="fas fa-cog"></i>
-              </button>
-            </div>
+          </header>
+          <div class="is-content">
+            <section class="is-announcement countainer-fluid">
+              <div class="row">
+                <div class="col-lg-3">
+                  <a href="#" class="btn is-announcement__stream d-flex">
+                    <div class="icon">
+                      <img src="./assets/img/gak_camera_icon.svg" alt="">
+                    </div>
+                    <div class="text">
+                      Онлайн <br>трансляция
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-9"></div>
+              </div>
+            </section>
+            <section class="is-themes container-fluid">
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+            </section>
           </div>
-        </header>
-        <section class="is-announcement countainer-fluid">
-          <div class="row">
-            <div class="col-lg-12">
-              Test
-            </div>
-          </div>
-        </section>
+      </div>
       </main>
     </div>
 
