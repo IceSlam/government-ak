@@ -443,7 +443,7 @@ aside.show {
   border: 1px solid #E9F0F8;
   box-sizing: border-box;
   border-radius: 5px;
-  padding: 1.25rem;
+  padding: 1.25rem 1.25rem 0;
 }
 
 .is-index .is-themes .is-themes__title {
@@ -454,12 +454,6 @@ aside.show {
   line-height: 120%;
   color: #191F22;
   margin-top: 1.125rem;
-}
-
-.is-index .is-themes .is-themes__card {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  background: #ccc;
 }
 
 .is-index .is-themes .col-md-3:first-child {
@@ -545,4 +539,73 @@ aside.show {
   background: #008ED8;
   padding: 7px 10px;
   border-radius: 2px;
+}
+
+.is-index .is-themes .is-themes__card {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  min-height: 202px;
+  margin-bottom: 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: relative;
+  padding: 1.125rem;
+}
+
+.is-index .is-themes .is-themes__card .card-content {
+  padding: 20px;
+  position: absolute;
+  background: rgba(0, 142, 216, 0.3);
+  border-radius: 5px;
+  bottom: .625rem;
+  left: .625rem;
+  right: .625rem;
+}
+
+.is-index .is-themes .is-themes__card .card-content p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 110%;
+  text-align: center !important;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  opacity: 0.7;
+  margin: 0 auto;
+}
+
+.is-index .is-themes .is-themes__card .card-content h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0px 10px;
+}
+
+.is-index .is-themes .is-themes__card.photoreport .label {
+  position: absolute;
+  top: .5rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.is-index .is-themes .is-themes__card.photoreport .label span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #008ED8;
+  border-radius: 2px;
+  padding: 7px 10px;
 }
