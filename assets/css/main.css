@@ -5,6 +5,10 @@ body {
   height: 100%;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 .is-page .is-wrapper {
   padding: 0rem .75rem !important;
 }
@@ -439,4 +443,106 @@ aside.show {
   border: 1px solid #E9F0F8;
   box-sizing: border-box;
   border-radius: 5px;
+  padding: 1.25rem;
+}
+
+.is-index .is-themes .is-themes__title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 120%;
+  color: #191F22;
+  margin-top: 1.125rem;
+}
+
+.is-index .is-themes .is-themes__card {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #ccc;
+}
+
+.is-index .is-themes .col-md-3:first-child {
+  width: 50%;
+  float: left;
+  height: 500px;
+}
+
+.is-index .is-themes__carousel {
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.is-index .is-themes__carousel .uk-icon svg {
+  display: none;
+}
+
+.is-index .is-themes__carousel .uk-overlay {
+  background: rgba(0, 142, 216, 0.3);
+  border-radius: 5px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  margin: auto;
+  padding: 20px !important;
+}
+
+.is-index .is-themes__carousel .uk-overlay p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 110%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  opacity: 0.7;
+  flex: none;
+  order: 0;
+  align-self: center;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+.is-index .is-themes__carousel .uk-panel {
+  min-height: 420px;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.is-index .is-themes__carousel .uk-overlay h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 1rem auto 0 !important;
+}
+
+.is-index .is-themes__carousel .uk-overlay .btn {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  display: inline-block !important;
+  position: absolute;
+  top: -40px;
+  left: 0;
+  right: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.is-index .is-themes__carousel .uk-overlay .btn span {
+  background: #008ED8;
+  padding: 7px 10px;
+  border-radius: 2px;
 }
