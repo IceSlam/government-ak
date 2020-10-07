@@ -745,3 +745,12 @@ aside.show {
   padding: 0;
   margin-bottom: 0;
 }
+
+.is-index .is-banner .is-banner__place {
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  min-height: 129px;
+  background-image: url(../img/banner_bg.png);
+}
