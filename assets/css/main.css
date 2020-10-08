@@ -781,8 +781,12 @@ aside.show {
   margin-bottom: 1.5rem;
 }
 
+.is-index .is-projects__card .nav-pills {
+  margin-right: -.5rem;
+}
+
 .is-index .is-projects__card .nav-pills .nav-link {
-  padding: 1.125rem;
+  padding: 0;
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
@@ -794,6 +798,13 @@ aside.show {
   border-radius: 3px;
 }
 
+.is-index .is-projects__card .nav-pills .img {
+  padding: 1.25rem;
+  border-right: 1px solid #EDF1F4;
+  max-width: 84px;
+  width: 100%;
+}
+
 .is-index .is-projects__card .nav-pills .text {
   font-family: Roboto;
   font-style: normal;
@@ -803,4 +814,26 @@ aside.show {
   display: flex;
   align-items: center;
   color: #008ED8;
+  padding: 1.25rem .5rem;
+}
+
+.is-index .is-projects__card .nav-pills .arrow {
+  padding: 1.25rem .75rem;
+}
+
+.is-index .is-projects__card .is-projects__btn {
+  margin-top: 1.5rem;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #008ED8;
+  border-radius: 3px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 110%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 1.125rem;
 }
