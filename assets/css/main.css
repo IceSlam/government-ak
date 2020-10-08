@@ -905,7 +905,7 @@ aside.show {
 .is-index .is-projects__card .uk-slider .uk-dotnav {
   margin-left: 0;
   position: absolute;
-  bottom: 1.625rem;
+  bottom: 1.7rem;
   left: 0;
   right: 0;
   display: -webkit-flex;
@@ -933,4 +933,33 @@ aside.show {
 
 .is-index .is-projects__card .uk-slider .uk-icon svg {
   display: none;
+}
+
+.is-index .is-projects__card .uk-slider .is-card-last-name {
+  margin-bottom: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 130%;
+  color: #191F22;
+}
+
+.is-index .is-projects__card .uk-slider .is-card-first-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 130%;
+  color: #191F22;
+}
+
+.is-index .is-projects__card .uk-slider .is-card-staff-position {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 150%;
+  color: #191F22;
+  opacity: 0.5;
 }
