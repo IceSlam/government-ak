@@ -3,6 +3,7 @@
 html,
 body {
   height: 100%;
+  background: #F3F6F9;
 }
 
 a {
@@ -711,7 +712,7 @@ aside.show {
   line-height: 120%;
   color: #191F22;
   position: absolute;
-  top: 70px;
+  top: 50px;
   margin-bottom: 0;
 }
 
@@ -753,4 +754,53 @@ aside.show {
   background-position: center;
   min-height: 129px;
   background-image: url(../img/banner_bg.png);
+  border-radius: 5px;
+}
+
+.is-index .is-projects .col-lg-4 {
+  padding: .75rem;
+}
+
+.is-index .is-projects .is-projects__card {
+  background: #FFFFFF;
+  border: 1px solid #E9F0F8;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 2rem 1.25rem 1.25rem;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.is-index .is-projects__card .title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 120%;
+  color: #373735;
+  margin-bottom: 1.5rem;
+}
+
+.is-index .is-projects__card .nav-pills .nav-link {
+  padding: 1.125rem;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #F5FAFF;
+  border: 1px solid #008ED8;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.is-index .is-projects__card .nav-pills .text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: .75rem;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #008ED8;
 }
