@@ -778,7 +778,7 @@ aside.show {
   font-size: 1.5rem;
   line-height: 120%;
   color: #373735;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
 }
 
 .is-index .is-projects__card .nav-pills {
@@ -796,6 +796,8 @@ aside.show {
   border: 1px solid #008ED8;
   box-sizing: border-box;
   border-radius: 3px;
+  margin: 0;
+  margin-bottom: .625rem;
 }
 
 .is-index .is-projects__card .nav-pills .img {
@@ -822,7 +824,7 @@ aside.show {
 }
 
 .is-index .is-projects__card .is-projects__btn {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   -webkit-box-shadow: none;
   box-shadow: none;
   background: #008ED8;
@@ -836,4 +838,99 @@ aside.show {
   text-transform: uppercase;
   color: #FFFFFF;
   padding: 1.125rem;
+}
+
+.is-index .is-projects__card .uk-slider .uk-card {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.is-index .is-projects__card .uk-slider .uk-card-body {
+  padding: 1.25rem 0 2rem;
+}
+
+.is-index .is-projects__card .uk-slider .uk-card-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: #191F22;
+  margin-bottom: 1rem;
+}
+
+.is-index .is-projects__card .is-card-author {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 150%;
+  color: #191F22;
+  opacity: 0.5;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  border-top: 1px solid #E4ECF4;
+}
+
+.is-index .is-projects__card .is-card-date {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 150%;
+  color: #191F22;
+  opacity: 0.5;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.is-index .is-projects__card .uk-slider .uk-icon {
+  margin: 0;
+  bottom: 1.25rem;
+}
+
+.is-index .is-projects__card .uk-slider .uk-icon.uk-slidenav-next {
+  right: 1.25rem;
+}
+
+.is-index .is-projects__card .uk-slider .uk-icon.uk-slidenav-previous {
+  left: 1.25rem;
+}
+
+.is-index .is-projects__card .uk-slider .uk-dotnav {
+  margin-left: 0;
+  position: absolute;
+  bottom: 1.625rem;
+  left: 0;
+  right: 0;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+}
+
+.is-index .is-projects__card .uk-slider .uk-dotnav > * > * {
+  border: none;
+  width: 6px;
+  height: 6px;
+  background: #191F22;
+  opacity: 0.2;
+}
+
+.is-index .is-projects__card .uk-slider .uk-dotnav > .uk-active > * {
+  width: 10px;
+  height: 10px;
+  background: #008ED8;
+  border: 1px solid #008ED8;
+  box-sizing: border-box;
+  opacity: 1;
+}
+
+.is-index .is-projects__card .uk-slider .uk-icon svg {
+  display: none;
 }
