@@ -256,7 +256,7 @@ aside.show {
 }
 
 .is-page .is-header {
-  padding: 1.35rem !important;
+  padding: 1.9rem !important;
   background: #FFFFFF;
   box-shadow: inset 0px -1px 0px #E9F0F8;
 }
@@ -1230,6 +1230,65 @@ aside.show {
   color: #FFFFFF;
 }
 
-.is-footer {
+.is-page .is-footer {
   background: linear-gradient(90deg, #00466E 0%, #009AD2 51.04%, #0A34D0 100%);
+  padding: 1.875rem 1.625rem;
+}
+
+.is-page .is-footer .logos {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.is-page .is-footer .logos .img {
+  max-width: 90px;
+  width: 100%;
+  margin-right: 1.25rem;
+}
+
+.is-page .is-footer .logos .text .address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-bottom: .625rem;
+}
+
+.is-page .is-footer .logos .text .copyright {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 140%;
+  color: #FFFFFF;
+  opacity: 0.5;
+  margin-bottom: 0;
+}
+
+.is-ppage .is-footer .contacts {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.is-page .is-footer .contacts .link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 140%;
+  color: #FFFFFF !important;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.is-page .is-footer .contacts .info p br {
+  line-height: 1;
 }
