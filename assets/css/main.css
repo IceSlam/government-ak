@@ -1200,3 +1200,36 @@ aside.show {
   min-height: 200px;
   border-radius: 5px;
 }
+
+.is-index .is-banners__item.international {
+  background:linear-gradient(0deg, rgba(0, 142, 216, 0.7), rgba(0, 142, 216, 0.7)), url(../img/banners_international.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.is-index .is-banners__item.massmedia {
+  background: linear-gradient(0deg, rgba(33, 175, 90, 0.7), rgba(33, 175, 90, 0.7)), url(../img/banners_massmedia.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.is-index .is-banners__item .title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.is-footer {
+  background: linear-gradient(90deg, #00466E 0%, #009AD2 51.04%, #0A34D0 100%);
+}
