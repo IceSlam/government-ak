@@ -87,7 +87,7 @@
         </ul>
       </div>
     </nav>
-    <div class="is-wrapper">
+    <div class="is-wrapper container-xl container">
       <div class="row">
         <aside id="sidebar" class="is-sidebar col">
           <div class="is-sidebar__events">
@@ -230,1312 +230,1281 @@
           </div>
         </aside>
         <main id="main" class="is-main col">
-
-            <header class="container-fluid is-header">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-5 d-flex align-items-center pl-5">
-                    <a href="#" class="btn is-header__title">
-                      <div class="logo">
-                        <img src="./assets/img/gak_logo.png" alt="">
-                      </div>
-                      <div class="text">
-                        <span class="title">
-                          Алтайский край
-                        </span>
-                        <br>
-                        <span class="sub">
-                          Официальный сайт правительства
-                        </span>
-                      </div>
-                    </a>
+          <header class="container-fluid is-header">
+            <div class="row">
+              <div class="col-md-5 d-flex align-items-center">
+                <a href="#" class="btn is-header__title">
+                  <div class="logo">
+                    <img src="./assets/img/gak_logo.png" alt="">
                   </div>
-                  <div class="col-md-4 d-flex align-items-center">
-                    <div class="input-group is-header__search">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Поиск по сайту"
-                        aria-label="Поиск по сайту"
-                        aria-describedby="button-addon2"
-                      />
-                      <button
-                        class="btn btn-outline-primary"
-                        type="button"
-                        id="button-addon2"
-                        data-ripple-color="dark"
-                      >
-                        <img src="./assets/img/gak_search_icon.svg" alt="">
-                      </button>
+                  <div class="text">
+                    <span class="title">
+                      Алтайский край
+                    </span>
+                    <br>
+                    <span class="sub">
+                      Официальный сайт правительства
+                    </span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4 d-flex align-items-center">
+                <div class="input-group is-header__search">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Поиск по сайту"
+                    aria-label="Поиск по сайту"
+                    aria-describedby="button-addon2"
+                  />
+                  <button
+                    class="btn btn-outline-primary"
+                    type="button"
+                    id="button-addon2"
+                    data-ripple-color="dark"
+                  >
+                    <img src="./assets/img/gak_search_icon.svg" alt="">
+                  </button>
+                </div>
+              </div>
+              <div class="col-md-3 is-socials d-flex align-items-center">
+                <a href="#" class="btn rss">
+                  <i class="fas fa-rss"></i>
+                </a>
+                <a href="#" class="btn vk">
+                  <i class="fab fa-vk"></i>
+                </a>
+                <a href="#" class="btn ok">
+                  <i class="fab fa-odnoklassniki"></i>
+                </a>
+                <a href="#" class="btn inst">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="btn tg">
+                  <i class="fab fa-telegram-plane"></i>
+                </a>
+                <a href="#" class="btn fb">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <select class="form-select">
+                  <option value="RU" selected>RU</option>
+                  <option value="EN">EN</option>
+                </select>
+                <button class="btn d-none" onclick="toggleSidebar()">
+                  <i class="fas fa-cog"></i>
+                </button>
+              </div>
+            </div>
+          </header>
+          <div class="is-content">
+            <section class="is-announcement countainer-fluid">
+              <div class="row">
+                <div class="col-lg-3">
+                  <a href="#" class="btn is-announcement__stream d-flex">
+                    <div class="icon">
+                      <img src="./assets/img/gak_camera_icon.svg" alt="">
                     </div>
-                  </div>
-                  <div class="col-md-3 is-socials d-flex align-items-center">
-                    <a href="#" class="btn rss">
-                      <i class="fas fa-rss"></i>
-                    </a>
-                    <a href="#" class="btn vk">
-                      <i class="fab fa-vk"></i>
-                    </a>
-                    <a href="#" class="btn ok">
-                      <i class="fab fa-odnoklassniki"></i>
-                    </a>
-                    <a href="#" class="btn inst">
-                      <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="#" class="btn tg">
-                      <i class="fab fa-telegram-plane"></i>
-                    </a>
-                    <a href="#" class="btn fb">
-                      <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <select class="form-select">
-                      <option value="RU" selected>RU</option>
-                      <option value="EN">EN</option>
-                    </select>
-                    <button class="btn d-none" onclick="toggleSidebar()">
-                      <i class="fas fa-cog"></i>
-                    </button>
+                    <div class="text">
+                      Онлайн <br>трансляция
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-9">
+                  <div class="is-announcement__announce">
+                    <div class="is-announcement__announce-content">
+                      <p>
+                        В Алтайском крае обсудили прогнозы развития паводковой ситуации весной 2020 года
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </header>
-          <div class="container">
-            <div class="is-content">
-              <section class="is-announcement countainer-fluid">
-                <div class="row">
-                  <div class="col-lg-3">
-                    <a href="#" class="btn is-announcement__stream d-flex">
-                      <div class="icon">
-                        <img src="./assets/img/gak_camera_icon.svg" alt="">
-                      </div>
-                      <div class="text">
-                        Онлайн <br>трансляция
-                      </div>
-                    </a>
-                  </div>
-                  <div class="col-lg-9">
-                    <div class="is-announcement__announce">
-                      <div class="is-announcement__announce-content">
-                        <p>
-                          В Алтайском крае обсудили прогнозы развития паводковой ситуации весной 2020 года
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
-              <section class="is-themes container-fluid">
-                <h3 class="is-themes__title">
-                  Главные темы
-                </h3>
-                <div class="row pt-3" style="border-top:1px solid #E4ECF4;">
-                  <div class="col-md-6 mb-2">
-                    <div class="uk-position-relative uk-visible-toggle uk-light is-themes__carousel" tabindex="-1" uk-slider="clsActivated: uk-transition-active; center: false">
-                      <ul class="uk-slider-items uk-grid">
-                        <li class="uk-width-1">
-                          <div class="uk-panel" style="background-image: url(./assets/img/themes_slide_img.png);">
-                            <div class="uk-overlay uk-position-bottom uk-text-center">
-                              <p class="uk-margin-remove">
-                                09 января 2020 г.    15:04
-                              </p>
-                              <h3 class="uk-margin-remove">
-                                Губернатор Алтайского края Виктор Томенко поздравил жителей региона с Новым годом и Рождеством
-                              </h3>
-                              <span class="d-block btn">
-                                <span>
-                                  Событие дня
-                                </span>
-                              </span>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="uk-width-1">
-                          <div class="uk-panel" style="background-image: url(./assets/img/themes_slide_img.png);">
-                            <div class="uk-overlay uk-position-bottom uk-text-center">
-                              <p class="uk-margin-remove">
-                                09 января 2020 г.    15:04
-                              </p>
-                              <h3 class="uk-margin-remove">
-                                Губернатор Алтайского края Виктор Томенко поздравил жителей региона с Новым годом и Рождеством
-                              </h3>
-                              <span class="d-block btn">
-                                <span>
-                                  Событие дня
-                                </span>
-                              </span>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="uk-width-1">
-                          <div class="uk-panel" style="background-image: url(./assets/img/themes_slide_img.png);">
-                            <div class="uk-overlay uk-position-bottom uk-text-center">
-                              <p class="uk-margin-remove">
-                                09 января 2020 г.    15:04
-                              </p>
-                              <h3 class="uk-margin-remove">
-                                Губернатор Алтайского края Виктор Томенко поздравил жителей региона с Новым годом и Рождеством
-                              </h3>
-                              <span class="d-block btn">
-                                <span>
-                                  Событие дня
-                                </span>
-                              </span>
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
-                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous">
-                          <img src="./assets/img/carousel_prev_icon.svg" alt="">
-                        </a>
-                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next">
-                          <img src="./assets/img/carousel_next_icon.svg" alt="">
-                        </a>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="is-themes__card card" style="background-image: url(./assets/img/themes_news_img1.svg);">
-                          <div class="card-content">
-                            <p class="mb-2">
+            </section>
+            <section class="is-themes container-fluid">
+              <h3 class="is-themes__title">
+                Главные темы
+              </h3>
+              <div class="row pt-3" style="border-top:1px solid #E4ECF4;">
+                <div class="col-md-6 mb-2">
+                  <div class="uk-position-relative uk-visible-toggle uk-light is-themes__carousel" tabindex="-1" uk-slider="clsActivated: uk-transition-active; center: false">
+                    <ul class="uk-slider-items uk-grid">
+                      <li class="uk-width-1">
+                        <div class="uk-panel" style="background-image: url(./assets/img/themes_slide_img.png);">
+                          <div class="uk-overlay uk-position-bottom uk-text-center">
+                            <p class="uk-margin-remove">
                               09 января 2020 г.    15:04
                             </p>
-                            <h3>
-                              В Алтайском крае открыли вторую ледовую переправу
+                            <h3 class="uk-margin-remove">
+                              Губернатор Алтайского края Виктор Томенко поздравил жителей региона с Новым годом и Рождеством
                             </h3>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="is-themes__card card video" style="background-image: url(./assets/img/themes_news_img2.png);">
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="is-themes__card card" style="background-image: url(./assets/img/themes_news_img3.png);">
-                          <div class="card-content">
-                            <p class="mb-2">
-                              09 января 2020 г.    15:04
-                            </p>
-                            <h3>
-                              В Алтайском крае похолодает до -28 градусов
-                            </h3>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="is-themes__card card photoreport" style="background-image: url(./assets/img/themes_news_img4.png);">
-                          <div class="card-content">
-                            <p class="mb-2">
-                              09 января 2020 г.    15:04
-                            </p>
-                            <h3>
-                              Алтайский биатлонист выступит на юниорском первенстве мира 2020 года
-                            </h3>
-                          </div>
-                          <span class="label mb-2">
-                            <span>
-                              Фоторепортаж
+                            <span class="d-block btn">
+                              <span>
+                                Событие дня
+                              </span>
                             </span>
-                          </span>
+                          </div>
                         </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
-              <section class="is-news container-fluid">
-                <div class="row pb-3">
-                  <div class="col-lg-4" style="border-bottom: 1px solid #E4ECF4;">
-                    <h3 class="is-news__title">
-                      Новости
-                    </h3>
-                  </div>
-                  <div class="col-lg-6 d-flex align-items-center" style="border-bottom: 1px solid #E4ECF4;justify-content: flex-end;padding-right: 0;">
-                    <ul class="nav nav-tabs is-news__tabs" id="ex1" role="tablist">
-                      <li class="nav-item" role="presentation">
-                        <a
-                          class="nav-link"
-                          id="ex1-tab-1"
-                          data-toggle="tab"
-                          href="#ex1-tabs-1"
-                          role="tab"
-                          aria-controls="ex1-tabs-1"
-                          aria-selected="true"
-                          >За дату</a
-                        >
                       </li>
-                      <li class="nav-item" role="presentation">
-                        <a
-                          class="nav-link active"
-                          id="ex1-tab-2"
-                          data-toggle="tab"
-                          href="#ex1-tabs-2"
-                          role="tab"
-                          aria-controls="ex1-tabs-2"
-                          aria-selected="false"
-                          >За сегодня</a
-                        >
+                      <li class="uk-width-1">
+                        <div class="uk-panel" style="background-image: url(./assets/img/themes_slide_img.png);">
+                          <div class="uk-overlay uk-position-bottom uk-text-center">
+                            <p class="uk-margin-remove">
+                              09 января 2020 г.    15:04
+                            </p>
+                            <h3 class="uk-margin-remove">
+                              Губернатор Алтайского края Виктор Томенко поздравил жителей региона с Новым годом и Рождеством
+                            </h3>
+                            <span class="d-block btn">
+                              <span>
+                                Событие дня
+                              </span>
+                            </span>
+                          </div>
+                        </div>
                       </li>
-                      <li class="nav-item" role="presentation">
-                        <a
-                          class="nav-link"
-                          id="ex1-tab-3"
-                          data-toggle="tab"
-                          href="#ex1-tabs-3"
-                          role="tab"
-                          aria-controls="ex1-tabs-3"
-                          aria-selected="false"
-                          >Главные новости</a
-                        >
-                      </li>
-
-                      <li class="nav-item" role="presentation">
-                        <a
-                          class="nav-link all-news"
-                          >Все новости</a
-                        >
+                      <li class="uk-width-1">
+                        <div class="uk-panel" style="background-image: url(./assets/img/themes_slide_img.png);">
+                          <div class="uk-overlay uk-position-bottom uk-text-center">
+                            <p class="uk-margin-remove">
+                              09 января 2020 г.    15:04
+                            </p>
+                            <h3 class="uk-margin-remove">
+                              Губернатор Алтайского края Виктор Томенко поздравил жителей региона с Новым годом и Рождеством
+                            </h3>
+                            <span class="d-block btn">
+                              <span>
+                                Событие дня
+                              </span>
+                            </span>
+                          </div>
+                        </div>
                       </li>
                     </ul>
+                      <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous">
+                        <img src="./assets/img/carousel_prev_icon.svg" alt="">
+                      </a>
+                      <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next">
+                        <img src="./assets/img/carousel_next_icon.svg" alt="">
+                      </a>
                   </div>
-                  <div class="col-lg-2">
-                    <a href="#" class="btn is-news__subscribe">
-                      <img src="./assets/img/dak_email_icon.svg" alt="">
-                      Подписаться
+                </div>
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="is-themes__card card" style="background-image: url(./assets/img/themes_news_img1.svg);">
+                        <div class="card-content">
+                          <p class="mb-2">
+                            09 января 2020 г.    15:04
+                          </p>
+                          <h3>
+                            В Алтайском крае открыли вторую ледовую переправу
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="is-themes__card card video" style="background-image: url(./assets/img/themes_news_img2.png);">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="is-themes__card card" style="background-image: url(./assets/img/themes_news_img3.png);">
+                        <div class="card-content">
+                          <p class="mb-2">
+                            09 января 2020 г.    15:04
+                          </p>
+                          <h3>
+                            В Алтайском крае похолодает до -28 градусов
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="is-themes__card card photoreport" style="background-image: url(./assets/img/themes_news_img4.png);">
+                        <div class="card-content">
+                          <p class="mb-2">
+                            09 января 2020 г.    15:04
+                          </p>
+                          <h3>
+                            Алтайский биатлонист выступит на юниорском первенстве мира 2020 года
+                          </h3>
+                        </div>
+                        <span class="label mb-2">
+                          <span>
+                            Фоторепортаж
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="is-news container-fluid">
+              <div class="row pb-3">
+                <div class="col-lg-4" style="border-bottom: 1px solid #E4ECF4;">
+                  <h3 class="is-news__title">
+                    Новости
+                  </h3>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center" style="border-bottom: 1px solid #E4ECF4;justify-content: flex-end;padding-right: 0;">
+                  <ul class="nav nav-tabs is-news__tabs" id="ex1" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <a
+                        class="nav-link"
+                        id="ex1-tab-1"
+                        data-toggle="tab"
+                        href="#ex1-tabs-1"
+                        role="tab"
+                        aria-controls="ex1-tabs-1"
+                        aria-selected="true"
+                        >За дату</a
+                      >
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a
+                        class="nav-link active"
+                        id="ex1-tab-2"
+                        data-toggle="tab"
+                        href="#ex1-tabs-2"
+                        role="tab"
+                        aria-controls="ex1-tabs-2"
+                        aria-selected="false"
+                        >За сегодня</a
+                      >
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a
+                        class="nav-link"
+                        id="ex1-tab-3"
+                        data-toggle="tab"
+                        href="#ex1-tabs-3"
+                        role="tab"
+                        aria-controls="ex1-tabs-3"
+                        aria-selected="false"
+                        >Главные новости</a
+                      >
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                      <a
+                        class="nav-link all-news"
+                        >Все новости</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-2">
+                  <a href="#" class="btn is-news__subscribe">
+                    <img src="./assets/img/dak_email_icon.svg" alt="">
+                    Подписаться
+                  </a>
+                </div>
+              </div>
+              <div class="row pt-3 pb-3 tab-content">
+                <div
+                  class="col-md-12 tab-pane fade"
+                  id="ex1-tabs-1"
+                  role="tabpanel"
+                  aria-labelledby="ex1-tab-1">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                      <div class="card is-news__card">
+                        <p class="title">
+                          В Государственной филармонии Алтайского края пройдет рождественский концерт
+                        </p>
+                        <p class="date">
+                          06 января 2020 г. 20:33
+                        </p>
+                        <p class="icon">
+                        </p>
+                        <a href="#" class="btn link">
+                          <img src="./assets/img/news_card_arrow.svg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                      <div class="card is-news__card">
+                        <span class="badge">
+                          Мнение
+                        </span>
+                        <p class="title">
+                          Антитеррористическая комиссия Алтайского края призывает ответственно относиться
+                        </p>
+                        <p class="date">
+                          06 января 2020 г. 20:33
+                        </p>
+                        <p class="icon">
+                          <img src="./assets/img/news_camera_icon.svg" alt="">
+                        </p>
+                        <a href="#" class="btn link">
+                          <img src="./assets/img/news_card_arrow.svg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                      <div class="card is-news__card">
+                        <span class="badge">
+                          <span>
+                            Мнение
+                          </span>
+                          <span class="d-flex align-items-center">
+                            <img src="./assets/img/news_star_icon.svg" alt="">
+                            День победы
+                          </span>
+                        </span>
+                        <p class="title">
+                          В столице Алтайского края проходит кибертурнир по FIFA20 с участием футболистов
+                        </p>
+                        <p class="date">
+                          06 января 2020 г. 20:33
+                        </p>
+                        <p class="icon">
+                        </p>
+                        <a href="#" class="btn link">
+                          <img src="./assets/img/news_card_arrow.svg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                      <div class="card is-news__card">
+                        <span class="badge">
+                          <span>
+                            Мнение
+                          </span>
+                          <span class="d-flex align-items-center">
+                            <img src="./assets/img/news_star_icon.svg" alt="">
+                            День победы
+                          </span>
+                        </span>
+                        <p class="title">
+                          С ночной рождественской службы жители столицы Алтайского края смогут уехать городским
+                        </p>
+                        <p class="date">
+                          06 января 2020 г. 20:33
+                        </p>
+                        <p class="icon">
+                          <img src="./assets/img/news_photo_icon.svg" alt="">
+                        </p>
+                        <a href="#" class="btn link">
+                          <img src="./assets/img/news_card_arrow.svg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                      <div class="card is-news__card">
+                        <span class="badge">
+                          <span>
+                            Мнение
+                          </span>
+                        </span>
+                        <p class="title">
+                          Вратарь казанского «Рубина» проведет мастер-класс в столице Алтайского края
+                        </p>
+                        <p class="date">
+                          06 января 2020 г. 20:33
+                        </p>
+                        <p class="icon">
+                          <img src="./assets/img/news_photo_icon.svg" alt="">
+                        </p>
+                        <a href="#" class="btn link">
+                          <img src="./assets/img/news_card_arrow.svg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                      <div class="card is-news__card">
+                        <span class="badge">
+                          <span>
+                            Мнение
+                          </span>
+                        </span>
+                        <p class="title">
+                          О создании заказника «Лебединый» расскажут на Фестивале заповедной культуры
+                        </p>
+                        <p class="date">
+                          06 января 2020 г. 20:33
+                        </p>
+                        <p class="icon">
+                          <img src="./assets/img/news_photo_icon.svg" alt="">
+                        </p>
+                        <a href="#" class="btn link">
+                          <img src="./assets/img/news_card_arrow.svg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                      <div class="card is-news__card">
+                        <span class="badge">
+                          <span>
+                            Мнение
+                          </span>
+                        </span>
+                        <p class="title">
+                          В Алтайском крае охотники помогают провести зимний учет животных
+                        </p>
+                        <p class="date">
+                          06 января 2020 г. 20:33
+                        </p>
+                        <p class="icon">
+                          <img src="./assets/img/news_photo_icon.svg" alt="">
+                        </p>
+                        <a href="#" class="btn link">
+                          <img src="./assets/img/news_card_arrow.svg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                      <div class="card is-news__card">
+                        <span class="badge">
+                          <span>
+                            Мнение
+                          </span>
+                        </span>
+                        <p class="title">
+                          Для отдыхающих в Алтайском крае на новогодних каникулах проводят утренние туры по Тавдинским
+                        </p>
+                        <p class="date">
+                          06 января 2020 г. 20:33
+                        </p>
+                        <p class="icon">
+                          <img src="./assets/img/news_photo_icon.svg" alt="">
+                        </p>
+                        <a href="#" class="btn link">
+                          <img src="./assets/img/news_card_arrow.svg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-12 tab-pane fade show active"
+                  id="ex1-tabs-2"
+                  role="tabpanel"
+                  aria-labelledby="ex1-tab-2">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                      <div class="card is-news__card">
+                        <p class="title">
+                          В Государственной филармонии Алтайского края пройдет рождественский концерт
+                        </p>
+                        <p class="date">
+                          06 января 2020 г. 20:33
+                        </p>
+                        <p class="icon">
+                        </p>
+                        <a href="#" class="btn link">
+                          <img src="./assets/img/news_card_arrow.svg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                      <div class="card is-news__card">
+                        <span class="badge">
+                          Мнение
+                        </span>
+                        <p class="title">
+                          Антитеррористическая комиссия Алтайского края призывает ответственно относиться
+                        </p>
+                        <p class="date">
+                          06 января 2020 г. 20:33
+                        </p>
+                        <p class="icon">
+                          <img src="./assets/img/news_camera_icon.svg" alt="">
+                        </p>
+                        <a href="#" class="btn link">
+                          <img src="./assets/img/news_card_arrow.svg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                      <div class="card is-news__card">
+                        <span class="badge">
+                          <span>
+                            Мнение
+                          </span>
+                          <span class="d-flex align-items-center">
+                            <img src="./assets/img/news_star_icon.svg" alt="">
+                            День победы
+                          </span>
+                        </span>
+                        <p class="title">
+                          В столице Алтайского края проходит кибертурнир по FIFA20 с участием футболистов
+                        </p>
+                        <p class="date">
+                          06 января 2020 г. 20:33
+                        </p>
+                        <p class="icon">
+                        </p>
+                        <a href="#" class="btn link">
+                          <img src="./assets/img/news_card_arrow.svg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                      <div class="card is-news__card">
+                        <span class="badge">
+                          <span>
+                            Мнение
+                          </span>
+                          <span class="d-flex align-items-center">
+                            <img src="./assets/img/news_star_icon.svg" alt="">
+                            День победы
+                          </span>
+                        </span>
+                        <p class="title">
+                          С ночной рождественской службы жители столицы Алтайского края смогут уехать городским
+                        </p>
+                        <p class="date">
+                          06 января 2020 г. 20:33
+                        </p>
+                        <p class="icon">
+                          <img src="./assets/img/news_photo_icon.svg" alt="">
+                        </p>
+                        <a href="#" class="btn link">
+                          <img src="./assets/img/news_card_arrow.svg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                      <div class="card is-news__card">
+                        <span class="badge">
+                          <span>
+                            Мнение
+                          </span>
+                        </span>
+                        <p class="title">
+                          Вратарь казанского «Рубина» проведет мастер-класс в столице Алтайского края
+                        </p>
+                        <p class="date">
+                          06 января 2020 г. 20:33
+                        </p>
+                        <p class="icon">
+                          <img src="./assets/img/news_photo_icon.svg" alt="">
+                        </p>
+                        <a href="#" class="btn link">
+                          <img src="./assets/img/news_card_arrow.svg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                      <div class="card is-news__card">
+                        <span class="badge">
+                          <span>
+                            Мнение
+                          </span>
+                        </span>
+                        <p class="title">
+                          О создании заказника «Лебединый» расскажут на Фестивале заповедной культуры
+                        </p>
+                        <p class="date">
+                          06 января 2020 г. 20:33
+                        </p>
+                        <p class="icon">
+                          <img src="./assets/img/news_photo_icon.svg" alt="">
+                        </p>
+                        <a href="#" class="btn link">
+                          <img src="./assets/img/news_card_arrow.svg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                      <div class="card is-news__card">
+                        <span class="badge">
+                          <span>
+                            Мнение
+                          </span>
+                        </span>
+                        <p class="title">
+                          В Алтайском крае охотники помогают провести зимний учет животных
+                        </p>
+                        <p class="date">
+                          06 января 2020 г. 20:33
+                        </p>
+                        <p class="icon">
+                          <img src="./assets/img/news_photo_icon.svg" alt="">
+                        </p>
+                        <a href="#" class="btn link">
+                          <img src="./assets/img/news_card_arrow.svg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                      <div class="card is-news__card">
+                        <span class="badge">
+                          <span>
+                            Мнение
+                          </span>
+                        </span>
+                        <p class="title">
+                          Для отдыхающих в Алтайском крае на новогодних каникулах проводят утренние туры по Тавдинским
+                        </p>
+                        <p class="date">
+                          06 января 2020 г. 20:33
+                        </p>
+                        <p class="icon">
+                          <img src="./assets/img/news_photo_icon.svg" alt="">
+                        </p>
+                        <a href="#" class="btn link">
+                          <img src="./assets/img/news_card_arrow.svg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-12 tab-pane fade"
+                  id="ex1-tabs-3"
+                  role="tabpanel"
+                  aria-labelledby="ex1-tab-3">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                      <div class="card is-news__card">
+                        <p class="title">
+                          В Государственной филармонии Алтайского края пройдет рождественский концерт
+                        </p>
+                        <p class="date">
+                          06 января 2020 г. 20:33
+                        </p>
+                        <p class="icon">
+                        </p>
+                        <a href="#" class="btn link">
+                          <img src="./assets/img/news_card_arrow.svg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                      <div class="card is-news__card">
+                        <span class="badge">
+                          Мнение
+                        </span>
+                        <p class="title">
+                          Антитеррористическая комиссия Алтайского края призывает ответственно относиться
+                        </p>
+                        <p class="date">
+                          06 января 2020 г. 20:33
+                        </p>
+                        <p class="icon">
+                          <img src="./assets/img/news_camera_icon.svg" alt="">
+                        </p>
+                        <a href="#" class="btn link">
+                          <img src="./assets/img/news_card_arrow.svg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                      <div class="card is-news__card">
+                        <span class="badge">
+                          <span>
+                            Мнение
+                          </span>
+                          <span class="d-flex align-items-center">
+                            <img src="./assets/img/news_star_icon.svg" alt="">
+                            День победы
+                          </span>
+                        </span>
+                        <p class="title">
+                          В столице Алтайского края проходит кибертурнир по FIFA20 с участием футболистов
+                        </p>
+                        <p class="date">
+                          06 января 2020 г. 20:33
+                        </p>
+                        <p class="icon">
+                        </p>
+                        <a href="#" class="btn link">
+                          <img src="./assets/img/news_card_arrow.svg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                      <div class="card is-news__card">
+                        <span class="badge">
+                          <span>
+                            Мнение
+                          </span>
+                          <span class="d-flex align-items-center">
+                            <img src="./assets/img/news_star_icon.svg" alt="">
+                            День победы
+                          </span>
+                        </span>
+                        <p class="title">
+                          С ночной рождественской службы жители столицы Алтайского края смогут уехать городским
+                        </p>
+                        <p class="date">
+                          06 января 2020 г. 20:33
+                        </p>
+                        <p class="icon">
+                          <img src="./assets/img/news_photo_icon.svg" alt="">
+                        </p>
+                        <a href="#" class="btn link">
+                          <img src="./assets/img/news_card_arrow.svg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                      <div class="card is-news__card">
+                        <span class="badge">
+                          <span>
+                            Мнение
+                          </span>
+                        </span>
+                        <p class="title">
+                          Вратарь казанского «Рубина» проведет мастер-класс в столице Алтайского края
+                        </p>
+                        <p class="date">
+                          06 января 2020 г. 20:33
+                        </p>
+                        <p class="icon">
+                          <img src="./assets/img/news_photo_icon.svg" alt="">
+                        </p>
+                        <a href="#" class="btn link">
+                          <img src="./assets/img/news_card_arrow.svg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                      <div class="card is-news__card">
+                        <span class="badge">
+                          <span>
+                            Мнение
+                          </span>
+                        </span>
+                        <p class="title">
+                          О создании заказника «Лебединый» расскажут на Фестивале заповедной культуры
+                        </p>
+                        <p class="date">
+                          06 января 2020 г. 20:33
+                        </p>
+                        <p class="icon">
+                          <img src="./assets/img/news_photo_icon.svg" alt="">
+                        </p>
+                        <a href="#" class="btn link">
+                          <img src="./assets/img/news_card_arrow.svg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                      <div class="card is-news__card">
+                        <span class="badge">
+                          <span>
+                            Мнение
+                          </span>
+                        </span>
+                        <p class="title">
+                          В Алтайском крае охотники помогают провести зимний учет животных
+                        </p>
+                        <p class="date">
+                          06 января 2020 г. 20:33
+                        </p>
+                        <p class="icon">
+                          <img src="./assets/img/news_photo_icon.svg" alt="">
+                        </p>
+                        <a href="#" class="btn link">
+                          <img src="./assets/img/news_card_arrow.svg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                      <div class="card is-news__card">
+                        <span class="badge">
+                          <span>
+                            Мнение
+                          </span>
+                        </span>
+                        <p class="title">
+                          Для отдыхающих в Алтайском крае на новогодних каникулах проводят утренние туры по Тавдинским
+                        </p>
+                        <p class="date">
+                          06 января 2020 г. 20:33
+                        </p>
+                        <p class="icon">
+                          <img src="./assets/img/news_photo_icon.svg" alt="">
+                        </p>
+                        <a href="#" class="btn link">
+                          <img src="./assets/img/news_card_arrow.svg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="is-banner container-fluid mb-2">
+              <div class="row">
+                <div class="col-md-12 is-banner__place">
+                </div>
+              </div>
+            </section>
+            <section class="is-projects">
+              <div class="row">
+                <div class="col-lg-4 d-flex">
+                  <div class="is-projects__card card d-flex">
+                    <h3 class="title d-block pb-3" style="border-bottom: 1px solid #E4ECF4;">
+                      Форум правительства
+                    </h3>
+                    <div uk-slider="center: false">
+
+                      <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                          <ul class="uk-slider-items uk-child-width-1 uk-grid">
+                              <li>
+                                  <div class="uk-card uk-card-default">
+                                      <div class="uk-card-media-top">
+                                          <img src="./assets/img/forum_slider_img.png" alt="">
+                                      </div>
+                                      <div class="uk-card-body">
+                                          <h3 class="uk-card-title">
+                                            Первые итоги реализации ﻿национального проекта «Здравоохранение» ﻿в Алтайском крае
+                                          </h3>
+                                          <p class="is-card-author">
+                                            <span class="d-block">
+                                              Автор
+                                            </span>
+                                            <span class="d-block">
+                                              Попов Дмитрий Владимирович
+                                            </span>
+                                          </p>
+                                          <p class="is-card-date">
+                                            <span class="d-block">
+                                              Дата
+                                            </span>
+                                            <span class="d-block">
+                                              10 декабря 14:00 - 15:00
+                                            </span>
+                                          </p>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <div class="uk-card uk-card-default">
+                                      <div class="uk-card-media-top">
+                                          <img src="./assets/img/forum_slider_img.png" alt="">
+                                      </div>
+                                      <div class="uk-card-body">
+                                          <h3 class="uk-card-title">
+                                            Первые итоги реализации ﻿национального проекта «Здравоохранение» ﻿в Алтайском крае
+                                          </h3>
+                                          <p class="is-card-author">
+                                            <span class="d-block">
+                                              Автор
+                                            </span>
+                                            <span class="d-block">
+                                              Попов Дмитрий Владимирович
+                                            </span>
+                                          </p>
+                                          <p class="is-card-date">
+                                            <span class="d-block">
+                                              Дата
+                                            </span>
+                                            <span class="d-block">
+                                              10 декабря 14:00 - 15:00
+                                            </span>
+                                          </p>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <div class="uk-card uk-card-default">
+                                      <div class="uk-card-media-top">
+                                          <img src="./assets/img/forum_slider_img.png" alt="">
+                                      </div>
+                                      <div class="uk-card-body">
+                                          <h3 class="uk-card-title">
+                                            Первые итоги реализации ﻿национального проекта «Здравоохранение» ﻿в Алтайском крае
+                                          </h3>
+                                          <p class="is-card-author">
+                                            <span class="d-block">
+                                              Автор
+                                            </span>
+                                            <span class="d-block">
+                                              Попов Дмитрий Владимирович
+                                            </span>
+                                          </p>
+                                          <p class="is-card-date">
+                                            <span class="d-block">
+                                              Дата
+                                            </span>
+                                            <span class="d-block">
+                                              10 декабря 14:00 - 15:00
+                                            </span>
+                                          </p>
+                                      </div>
+                                  </div>
+                              </li>
+                          </ul>
+
+                      </div>
+
+
+
+                      <a class="uk-position-bottom-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous">
+                        <img src="./assets/img/carousel_prev_gray_icon.svg" alt="">
+                      </a>
+                      <ul class="uk-slider-nav uk-dotnav uk-flex-center"></ul>
+                      <a class="uk-position-bottom-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next">
+                        <img src="./assets/img/carousel_next_gray_icon.svg" alt="">
+                      </a>
+                  </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="is-projects__card card">
+                    <h3 class="title">
+                      Национальные проекты в Алтайском крае
+                    </h3>
+                    <div
+                      class="nav flex-column nav-pills text-center d-flex justify-content-center"
+                      id="v-pills-tab"
+                      role="tablist"
+                      aria-orientation="vertical"
+                    >
+                      <a
+                        class="nav-link"
+                        >
+                          <div class="img">
+                            <img src="./assets/img/health_icon.svg" alt="">
+                          </div>
+                          <div class="text">
+                            Здравоохранение
+                          </div>
+                          <div class="arrow">
+                            <img src="./assets/img/projects_arrow_icon.svg" alt="">
+                          </div>
+                        </a
+                      >
+                      <a
+                        class="nav-link"
+                        >
+                        <div class="img">
+                          <img src="./assets/img/culture_icon.svg" alt="">
+                        </div>
+                        <div class="text">
+                          Культура
+                        </div>
+                        <div class="arrow">
+                          <img src="./assets/img/projects_arrow_icon.svg" alt="">
+                        </div>
+                        </a
+                      >
+                      <a
+                        class="nav-link"
+                        >
+                        <div class="img">
+                          <img src="./assets/img/ecology_icon.svg" alt="">
+                        </div>
+                        <div class="text">
+                          Экология
+                        </div>
+                        <div class="arrow">
+                          <img src="./assets/img/projects_arrow_icon.svg" alt="">
+                        </div>
+                        </a
+                      >
+                      <a
+                        class="nav-link"
+                        >
+                        <div class="img">
+                          <img src="./assets/img/digital_icon.svg" alt="">
+                        </div>
+                        <div class="text">
+                          Цифровая экономика
+                        </div>
+                        <div class="arrow">
+                          <img src="./assets/img/projects_arrow_icon.svg" alt="">
+                        </div>
+                        </a
+                      >
+                    </div>
+                    <a href="#" class="btn is-projects__btn">
+                      Все проекты
                     </a>
                   </div>
                 </div>
-                <div class="row pt-3 pb-3 tab-content">
-                  <div
-                    class="col-md-12 tab-pane fade"
-                    id="ex1-tabs-1"
-                    role="tabpanel"
-                    aria-labelledby="ex1-tab-1">
-                    <div class="row">
-                      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
-                        <div class="card is-news__card">
-                          <p class="title">
-                            В Государственной филармонии Алтайского края пройдет рождественский концерт
-                          </p>
-                          <p class="date">
-                            06 января 2020 г. 20:33
-                          </p>
-                          <p class="icon">
-                          </p>
-                          <a href="#" class="btn link">
-                            <img src="./assets/img/news_card_arrow.svg" alt="">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
-                        <div class="card is-news__card">
-                          <span class="badge">
-                            Мнение
-                          </span>
-                          <p class="title">
-                            Антитеррористическая комиссия Алтайского края призывает ответственно относиться
-                          </p>
-                          <p class="date">
-                            06 января 2020 г. 20:33
-                          </p>
-                          <p class="icon">
-                            <img src="./assets/img/news_camera_icon.svg" alt="">
-                          </p>
-                          <a href="#" class="btn link">
-                            <img src="./assets/img/news_card_arrow.svg" alt="">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
-                        <div class="card is-news__card">
-                          <span class="badge">
-                            <span>
-                              Мнение
-                            </span>
-                            <span class="d-flex align-items-center">
-                              <img src="./assets/img/news_star_icon.svg" alt="">
-                              День победы
-                            </span>
-                          </span>
-                          <p class="title">
-                            В столице Алтайского края проходит кибертурнир по FIFA20 с участием футболистов
-                          </p>
-                          <p class="date">
-                            06 января 2020 г. 20:33
-                          </p>
-                          <p class="icon">
-                          </p>
-                          <a href="#" class="btn link">
-                            <img src="./assets/img/news_card_arrow.svg" alt="">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
-                        <div class="card is-news__card">
-                          <span class="badge">
-                            <span>
-                              Мнение
-                            </span>
-                            <span class="d-flex align-items-center">
-                              <img src="./assets/img/news_star_icon.svg" alt="">
-                              День победы
-                            </span>
-                          </span>
-                          <p class="title">
-                            С ночной рождественской службы жители столицы Алтайского края смогут уехать городским
-                          </p>
-                          <p class="date">
-                            06 января 2020 г. 20:33
-                          </p>
-                          <p class="icon">
-                            <img src="./assets/img/news_photo_icon.svg" alt="">
-                          </p>
-                          <a href="#" class="btn link">
-                            <img src="./assets/img/news_card_arrow.svg" alt="">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
-                        <div class="card is-news__card">
-                          <span class="badge">
-                            <span>
-                              Мнение
-                            </span>
-                          </span>
-                          <p class="title">
-                            Вратарь казанского «Рубина» проведет мастер-класс в столице Алтайского края
-                          </p>
-                          <p class="date">
-                            06 января 2020 г. 20:33
-                          </p>
-                          <p class="icon">
-                            <img src="./assets/img/news_photo_icon.svg" alt="">
-                          </p>
-                          <a href="#" class="btn link">
-                            <img src="./assets/img/news_card_arrow.svg" alt="">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
-                        <div class="card is-news__card">
-                          <span class="badge">
-                            <span>
-                              Мнение
-                            </span>
-                          </span>
-                          <p class="title">
-                            О создании заказника «Лебединый» расскажут на Фестивале заповедной культуры
-                          </p>
-                          <p class="date">
-                            06 января 2020 г. 20:33
-                          </p>
-                          <p class="icon">
-                            <img src="./assets/img/news_photo_icon.svg" alt="">
-                          </p>
-                          <a href="#" class="btn link">
-                            <img src="./assets/img/news_card_arrow.svg" alt="">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
-                        <div class="card is-news__card">
-                          <span class="badge">
-                            <span>
-                              Мнение
-                            </span>
-                          </span>
-                          <p class="title">
-                            В Алтайском крае охотники помогают провести зимний учет животных
-                          </p>
-                          <p class="date">
-                            06 января 2020 г. 20:33
-                          </p>
-                          <p class="icon">
-                            <img src="./assets/img/news_photo_icon.svg" alt="">
-                          </p>
-                          <a href="#" class="btn link">
-                            <img src="./assets/img/news_card_arrow.svg" alt="">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
-                        <div class="card is-news__card">
-                          <span class="badge">
-                            <span>
-                              Мнение
-                            </span>
-                          </span>
-                          <p class="title">
-                            Для отдыхающих в Алтайском крае на новогодних каникулах проводят утренние туры по Тавдинским
-                          </p>
-                          <p class="date">
-                            06 января 2020 г. 20:33
-                          </p>
-                          <p class="icon">
-                            <img src="./assets/img/news_photo_icon.svg" alt="">
-                          </p>
-                          <a href="#" class="btn link">
-                            <img src="./assets/img/news_card_arrow.svg" alt="">
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="col-md-12 tab-pane fade show active"
-                    id="ex1-tabs-2"
-                    role="tabpanel"
-                    aria-labelledby="ex1-tab-2">
-                    <div class="row">
-                      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
-                        <div class="card is-news__card">
-                          <p class="title">
-                            В Государственной филармонии Алтайского края пройдет рождественский концерт
-                          </p>
-                          <p class="date">
-                            06 января 2020 г. 20:33
-                          </p>
-                          <p class="icon">
-                          </p>
-                          <a href="#" class="btn link">
-                            <img src="./assets/img/news_card_arrow.svg" alt="">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
-                        <div class="card is-news__card">
-                          <span class="badge">
-                            Мнение
-                          </span>
-                          <p class="title">
-                            Антитеррористическая комиссия Алтайского края призывает ответственно относиться
-                          </p>
-                          <p class="date">
-                            06 января 2020 г. 20:33
-                          </p>
-                          <p class="icon">
-                            <img src="./assets/img/news_camera_icon.svg" alt="">
-                          </p>
-                          <a href="#" class="btn link">
-                            <img src="./assets/img/news_card_arrow.svg" alt="">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
-                        <div class="card is-news__card">
-                          <span class="badge">
-                            <span>
-                              Мнение
-                            </span>
-                            <span class="d-flex align-items-center">
-                              <img src="./assets/img/news_star_icon.svg" alt="">
-                              День победы
-                            </span>
-                          </span>
-                          <p class="title">
-                            В столице Алтайского края проходит кибертурнир по FIFA20 с участием футболистов
-                          </p>
-                          <p class="date">
-                            06 января 2020 г. 20:33
-                          </p>
-                          <p class="icon">
-                          </p>
-                          <a href="#" class="btn link">
-                            <img src="./assets/img/news_card_arrow.svg" alt="">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
-                        <div class="card is-news__card">
-                          <span class="badge">
-                            <span>
-                              Мнение
-                            </span>
-                            <span class="d-flex align-items-center">
-                              <img src="./assets/img/news_star_icon.svg" alt="">
-                              День победы
-                            </span>
-                          </span>
-                          <p class="title">
-                            С ночной рождественской службы жители столицы Алтайского края смогут уехать городским
-                          </p>
-                          <p class="date">
-                            06 января 2020 г. 20:33
-                          </p>
-                          <p class="icon">
-                            <img src="./assets/img/news_photo_icon.svg" alt="">
-                          </p>
-                          <a href="#" class="btn link">
-                            <img src="./assets/img/news_card_arrow.svg" alt="">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
-                        <div class="card is-news__card">
-                          <span class="badge">
-                            <span>
-                              Мнение
-                            </span>
-                          </span>
-                          <p class="title">
-                            Вратарь казанского «Рубина» проведет мастер-класс в столице Алтайского края
-                          </p>
-                          <p class="date">
-                            06 января 2020 г. 20:33
-                          </p>
-                          <p class="icon">
-                            <img src="./assets/img/news_photo_icon.svg" alt="">
-                          </p>
-                          <a href="#" class="btn link">
-                            <img src="./assets/img/news_card_arrow.svg" alt="">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
-                        <div class="card is-news__card">
-                          <span class="badge">
-                            <span>
-                              Мнение
-                            </span>
-                          </span>
-                          <p class="title">
-                            О создании заказника «Лебединый» расскажут на Фестивале заповедной культуры
-                          </p>
-                          <p class="date">
-                            06 января 2020 г. 20:33
-                          </p>
-                          <p class="icon">
-                            <img src="./assets/img/news_photo_icon.svg" alt="">
-                          </p>
-                          <a href="#" class="btn link">
-                            <img src="./assets/img/news_card_arrow.svg" alt="">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
-                        <div class="card is-news__card">
-                          <span class="badge">
-                            <span>
-                              Мнение
-                            </span>
-                          </span>
-                          <p class="title">
-                            В Алтайском крае охотники помогают провести зимний учет животных
-                          </p>
-                          <p class="date">
-                            06 января 2020 г. 20:33
-                          </p>
-                          <p class="icon">
-                            <img src="./assets/img/news_photo_icon.svg" alt="">
-                          </p>
-                          <a href="#" class="btn link">
-                            <img src="./assets/img/news_card_arrow.svg" alt="">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
-                        <div class="card is-news__card">
-                          <span class="badge">
-                            <span>
-                              Мнение
-                            </span>
-                          </span>
-                          <p class="title">
-                            Для отдыхающих в Алтайском крае на новогодних каникулах проводят утренние туры по Тавдинским
-                          </p>
-                          <p class="date">
-                            06 января 2020 г. 20:33
-                          </p>
-                          <p class="icon">
-                            <img src="./assets/img/news_photo_icon.svg" alt="">
-                          </p>
-                          <a href="#" class="btn link">
-                            <img src="./assets/img/news_card_arrow.svg" alt="">
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="col-md-12 tab-pane fade"
-                    id="ex1-tabs-3"
-                    role="tabpanel"
-                    aria-labelledby="ex1-tab-3">
-                    <div class="row">
-                      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
-                        <div class="card is-news__card">
-                          <p class="title">
-                            В Государственной филармонии Алтайского края пройдет рождественский концерт
-                          </p>
-                          <p class="date">
-                            06 января 2020 г. 20:33
-                          </p>
-                          <p class="icon">
-                          </p>
-                          <a href="#" class="btn link">
-                            <img src="./assets/img/news_card_arrow.svg" alt="">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
-                        <div class="card is-news__card">
-                          <span class="badge">
-                            Мнение
-                          </span>
-                          <p class="title">
-                            Антитеррористическая комиссия Алтайского края призывает ответственно относиться
-                          </p>
-                          <p class="date">
-                            06 января 2020 г. 20:33
-                          </p>
-                          <p class="icon">
-                            <img src="./assets/img/news_camera_icon.svg" alt="">
-                          </p>
-                          <a href="#" class="btn link">
-                            <img src="./assets/img/news_card_arrow.svg" alt="">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
-                        <div class="card is-news__card">
-                          <span class="badge">
-                            <span>
-                              Мнение
-                            </span>
-                            <span class="d-flex align-items-center">
-                              <img src="./assets/img/news_star_icon.svg" alt="">
-                              День победы
-                            </span>
-                          </span>
-                          <p class="title">
-                            В столице Алтайского края проходит кибертурнир по FIFA20 с участием футболистов
-                          </p>
-                          <p class="date">
-                            06 января 2020 г. 20:33
-                          </p>
-                          <p class="icon">
-                          </p>
-                          <a href="#" class="btn link">
-                            <img src="./assets/img/news_card_arrow.svg" alt="">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
-                        <div class="card is-news__card">
-                          <span class="badge">
-                            <span>
-                              Мнение
-                            </span>
-                            <span class="d-flex align-items-center">
-                              <img src="./assets/img/news_star_icon.svg" alt="">
-                              День победы
-                            </span>
-                          </span>
-                          <p class="title">
-                            С ночной рождественской службы жители столицы Алтайского края смогут уехать городским
-                          </p>
-                          <p class="date">
-                            06 января 2020 г. 20:33
-                          </p>
-                          <p class="icon">
-                            <img src="./assets/img/news_photo_icon.svg" alt="">
-                          </p>
-                          <a href="#" class="btn link">
-                            <img src="./assets/img/news_card_arrow.svg" alt="">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
-                        <div class="card is-news__card">
-                          <span class="badge">
-                            <span>
-                              Мнение
-                            </span>
-                          </span>
-                          <p class="title">
-                            Вратарь казанского «Рубина» проведет мастер-класс в столице Алтайского края
-                          </p>
-                          <p class="date">
-                            06 января 2020 г. 20:33
-                          </p>
-                          <p class="icon">
-                            <img src="./assets/img/news_photo_icon.svg" alt="">
-                          </p>
-                          <a href="#" class="btn link">
-                            <img src="./assets/img/news_card_arrow.svg" alt="">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
-                        <div class="card is-news__card">
-                          <span class="badge">
-                            <span>
-                              Мнение
-                            </span>
-                          </span>
-                          <p class="title">
-                            О создании заказника «Лебединый» расскажут на Фестивале заповедной культуры
-                          </p>
-                          <p class="date">
-                            06 января 2020 г. 20:33
-                          </p>
-                          <p class="icon">
-                            <img src="./assets/img/news_photo_icon.svg" alt="">
-                          </p>
-                          <a href="#" class="btn link">
-                            <img src="./assets/img/news_card_arrow.svg" alt="">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
-                        <div class="card is-news__card">
-                          <span class="badge">
-                            <span>
-                              Мнение
-                            </span>
-                          </span>
-                          <p class="title">
-                            В Алтайском крае охотники помогают провести зимний учет животных
-                          </p>
-                          <p class="date">
-                            06 января 2020 г. 20:33
-                          </p>
-                          <p class="icon">
-                            <img src="./assets/img/news_photo_icon.svg" alt="">
-                          </p>
-                          <a href="#" class="btn link">
-                            <img src="./assets/img/news_card_arrow.svg" alt="">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
-                        <div class="card is-news__card">
-                          <span class="badge">
-                            <span>
-                              Мнение
-                            </span>
-                          </span>
-                          <p class="title">
-                            Для отдыхающих в Алтайском крае на новогодних каникулах проводят утренние туры по Тавдинским
-                          </p>
-                          <p class="date">
-                            06 января 2020 г. 20:33
-                          </p>
-                          <p class="icon">
-                            <img src="./assets/img/news_photo_icon.svg" alt="">
-                          </p>
-                          <a href="#" class="btn link">
-                            <img src="./assets/img/news_card_arrow.svg" alt="">
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
-              <section class="is-banner container-fluid mb-2">
-                <div class="row">
-                  <div class="col-md-12 is-banner__place">
-                  </div>
-                </div>
-              </section>
-              <section class="is-projects">
-                <div class="row">
-                  <div class="col-lg-4 d-flex">
-                    <div class="is-projects__card card d-flex">
-                      <h3 class="title d-block pb-3" style="border-bottom: 1px solid #E4ECF4;">
-                        Форум правительства
-                      </h3>
-                      <div uk-slider="center: false">
+                <div class="col-lg-4 d-flex">
+                  <div class="is-projects__card card">
+                    <h3 class="title d-block pb-3" style="border-bottom: 1px solid #E4ECF4;">
+                      Доска почета
+                    </h3>
+                    <div uk-slider="center: false">
 
-                        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+                      <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
 
-                            <ul class="uk-slider-items uk-child-width-1 uk-grid">
-                                <li>
-                                    <div class="uk-card uk-card-default">
-                                        <div class="uk-card-media-top">
-                                            <img src="./assets/img/forum_slider_img.png" alt="">
-                                        </div>
-                                        <div class="uk-card-body">
-                                            <h3 class="uk-card-title">
-                                              Первые итоги реализации ﻿национального проекта «Здравоохранение» ﻿в Алтайском крае
-                                            </h3>
-                                            <p class="is-card-author">
-                                              <span class="d-block">
-                                                Автор
-                                              </span>
-                                              <span class="d-block">
-                                                Попов Дмитрий Владимирович
-                                              </span>
-                                            </p>
-                                            <p class="is-card-date">
-                                              <span class="d-block">
-                                                Дата
-                                              </span>
-                                              <span class="d-block">
-                                                10 декабря 14:00 - 15:00
-                                              </span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="uk-card uk-card-default">
-                                        <div class="uk-card-media-top">
-                                            <img src="./assets/img/forum_slider_img.png" alt="">
-                                        </div>
-                                        <div class="uk-card-body">
-                                            <h3 class="uk-card-title">
-                                              Первые итоги реализации ﻿национального проекта «Здравоохранение» ﻿в Алтайском крае
-                                            </h3>
-                                            <p class="is-card-author">
-                                              <span class="d-block">
-                                                Автор
-                                              </span>
-                                              <span class="d-block">
-                                                Попов Дмитрий Владимирович
-                                              </span>
-                                            </p>
-                                            <p class="is-card-date">
-                                              <span class="d-block">
-                                                Дата
-                                              </span>
-                                              <span class="d-block">
-                                                10 декабря 14:00 - 15:00
-                                              </span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="uk-card uk-card-default">
-                                        <div class="uk-card-media-top">
-                                            <img src="./assets/img/forum_slider_img.png" alt="">
-                                        </div>
-                                        <div class="uk-card-body">
-                                            <h3 class="uk-card-title">
-                                              Первые итоги реализации ﻿национального проекта «Здравоохранение» ﻿в Алтайском крае
-                                            </h3>
-                                            <p class="is-card-author">
-                                              <span class="d-block">
-                                                Автор
-                                              </span>
-                                              <span class="d-block">
-                                                Попов Дмитрий Владимирович
-                                              </span>
-                                            </p>
-                                            <p class="is-card-date">
-                                              <span class="d-block">
-                                                Дата
-                                              </span>
-                                              <span class="d-block">
-                                                10 декабря 14:00 - 15:00
-                                              </span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-
-                        </div>
-
-
-
-                        <a class="uk-position-bottom-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous">
-                          <img src="./assets/img/carousel_prev_gray_icon.svg" alt="">
-                        </a>
-                        <ul class="uk-slider-nav uk-dotnav uk-flex-center"></ul>
-                        <a class="uk-position-bottom-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next">
-                          <img src="./assets/img/carousel_next_gray_icon.svg" alt="">
-                        </a>
-                    </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <div class="is-projects__card card">
-                      <h3 class="title">
-                        Национальные проекты в Алтайском крае
-                      </h3>
-                      <div
-                        class="nav flex-column nav-pills text-center d-flex justify-content-center"
-                        id="v-pills-tab"
-                        role="tablist"
-                        aria-orientation="vertical"
-                      >
-                        <a
-                          class="nav-link"
-                          >
-                            <div class="img">
-                              <img src="./assets/img/health_icon.svg" alt="">
-                            </div>
-                            <div class="text">
-                              Здравоохранение
-                            </div>
-                            <div class="arrow">
-                              <img src="./assets/img/projects_arrow_icon.svg" alt="">
-                            </div>
-                          </a
-                        >
-                        <a
-                          class="nav-link"
-                          >
-                          <div class="img">
-                            <img src="./assets/img/culture_icon.svg" alt="">
-                          </div>
-                          <div class="text">
-                            Культура
-                          </div>
-                          <div class="arrow">
-                            <img src="./assets/img/projects_arrow_icon.svg" alt="">
-                          </div>
-                          </a
-                        >
-                        <a
-                          class="nav-link"
-                          >
-                          <div class="img">
-                            <img src="./assets/img/ecology_icon.svg" alt="">
-                          </div>
-                          <div class="text">
-                            Экология
-                          </div>
-                          <div class="arrow">
-                            <img src="./assets/img/projects_arrow_icon.svg" alt="">
-                          </div>
-                          </a
-                        >
-                        <a
-                          class="nav-link"
-                          >
-                          <div class="img">
-                            <img src="./assets/img/digital_icon.svg" alt="">
-                          </div>
-                          <div class="text">
-                            Цифровая экономика
-                          </div>
-                          <div class="arrow">
-                            <img src="./assets/img/projects_arrow_icon.svg" alt="">
-                          </div>
-                          </a
-                        >
+                          <ul class="uk-slider-items uk-child-width-1 uk-grid">
+                              <li>
+                                  <div class="uk-card uk-card-default">
+                                      <div class="uk-card-media-top">
+                                          <img src="./assets/img/fame_img.png" alt="">
+                                      </div>
+                                      <div class="uk-card-body">
+                                          <h3 class="is-card-last-name">
+                                            Шукшин
+                                          </h3>
+                                          <h4 class="is-card-first-name">
+                                            Василий Макарович
+                                          </h4>
+                                          <p class="is-card-staff-position">
+                                            должность
+                                          </p>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <div class="uk-card uk-card-default">
+                                      <div class="uk-card-media-top">
+                                          <img src="./assets/img/fame_img.png" alt="">
+                                      </div>
+                                      <div class="uk-card-body">
+                                          <h3 class="is-card-last-name">
+                                            Шукшин
+                                          </h3>
+                                          <h4 class="is-card-first-name">
+                                            Василий Макарович
+                                          </h4>
+                                          <p class="is-card-staff-position">
+                                            должность
+                                          </p>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <div class="uk-card uk-card-default">
+                                      <div class="uk-card-media-top">
+                                          <img src="./assets/img/fame_img.png" alt="">
+                                      </div>
+                                      <div class="uk-card-body">
+                                          <h3 class="is-card-last-name">
+                                            Шукшин
+                                          </h3>
+                                          <h4 class="is-card-first-name">
+                                            Василий Макарович
+                                          </h4>
+                                          <p class="is-card-staff-position">
+                                            должность
+                                          </p>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <div class="uk-card uk-card-default">
+                                      <div class="uk-card-media-top">
+                                          <img src="./assets/img/fame_img.png" alt="">
+                                      </div>
+                                      <div class="uk-card-body">
+                                          <h3 class="is-card-last-name">
+                                            Шукшин
+                                          </h3>
+                                          <h4 class="is-card-first-name">
+                                            Василий Макарович
+                                          </h4>
+                                          <p class="is-card-staff-position">
+                                            должность
+                                          </p>
+                                      </div>
+                                  </div>
+                              </li>
+                          </ul>
                       </div>
-                      <a href="#" class="btn is-projects__btn">
-                        Все проекты
+                      <a class="uk-position-bottom-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous">
+                        <img src="./assets/img/carousel_prev_gray_icon.svg" alt="">
                       </a>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 d-flex">
-                    <div class="is-projects__card card">
-                      <h3 class="title d-block pb-3" style="border-bottom: 1px solid #E4ECF4;">
-                        Доска почета
-                      </h3>
-                      <div uk-slider="center: false">
-
-                        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
-
-                            <ul class="uk-slider-items uk-child-width-1 uk-grid">
-                                <li>
-                                    <div class="uk-card uk-card-default">
-                                        <div class="uk-card-media-top">
-                                            <img src="./assets/img/fame_img.png" alt="">
-                                        </div>
-                                        <div class="uk-card-body">
-                                            <h3 class="is-card-last-name">
-                                              Шукшин
-                                            </h3>
-                                            <h4 class="is-card-first-name">
-                                              Василий Макарович
-                                            </h4>
-                                            <p class="is-card-staff-position">
-                                              должность
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="uk-card uk-card-default">
-                                        <div class="uk-card-media-top">
-                                            <img src="./assets/img/fame_img.png" alt="">
-                                        </div>
-                                        <div class="uk-card-body">
-                                            <h3 class="is-card-last-name">
-                                              Шукшин
-                                            </h3>
-                                            <h4 class="is-card-first-name">
-                                              Василий Макарович
-                                            </h4>
-                                            <p class="is-card-staff-position">
-                                              должность
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="uk-card uk-card-default">
-                                        <div class="uk-card-media-top">
-                                            <img src="./assets/img/fame_img.png" alt="">
-                                        </div>
-                                        <div class="uk-card-body">
-                                            <h3 class="is-card-last-name">
-                                              Шукшин
-                                            </h3>
-                                            <h4 class="is-card-first-name">
-                                              Василий Макарович
-                                            </h4>
-                                            <p class="is-card-staff-position">
-                                              должность
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="uk-card uk-card-default">
-                                        <div class="uk-card-media-top">
-                                            <img src="./assets/img/fame_img.png" alt="">
-                                        </div>
-                                        <div class="uk-card-body">
-                                            <h3 class="is-card-last-name">
-                                              Шукшин
-                                            </h3>
-                                            <h4 class="is-card-first-name">
-                                              Василий Макарович
-                                            </h4>
-                                            <p class="is-card-staff-position">
-                                              должность
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <a class="uk-position-bottom-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous">
-                          <img src="./assets/img/carousel_prev_gray_icon.svg" alt="">
-                        </a>
-                        <ul class="uk-slider-nav uk-dotnav uk-flex-center"></ul>
-                        <a class="uk-position-bottom-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next">
-                          <img src="./assets/img/carousel_next_gray_icon.svg" alt="">
-                        </a>
-                    </div>
-                  </div>
-                  </div>
-                </div>
-              </section>
-              <section class="is-quiz pb-3">
-                <div class="row d-flex">
-                  <div class="col-lg-6 d-flex">
-                    <div class="is-quiz__banner d-flex align-items-center justify-content-center">
-                      <a href="#" class="d-flex mx-auto">
-                        Место для баннера
+                      <ul class="uk-slider-nav uk-dotnav uk-flex-center"></ul>
+                      <a class="uk-position-bottom-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next">
+                        <img src="./assets/img/carousel_next_gray_icon.svg" alt="">
                       </a>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 d-flex">
-                    <div class="is-quiz__content">
-                      <h3 class="title">
-                        Принять участие в опросе
-                      </h3>
-                      <p class="description">
-                        "Оценка эффективности работы  руководителей государственных и муниципальных служб, органов местного самоуправления в 2019 году"
-                      </p>
-                      <a href="#" class="btn">
-                        Пройти опрос
-                      </a>
-                    </div>
                   </div>
                 </div>
-              </section>
-              <section class="is-links mb-3">
-                <h2 class="is-links__title">
-                  Полезные ссылки
-                </h2>
-                <div class="row">
-                  <div class="col-md-12">
-                    <div uk-slider="center: false" class="mt-3">
-
-                        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
-
-                            <ul class="uk-slider-items uk-child-width-1-5@s">
-                                <li>
-                                    <div class="uk-card uk-card-default">
-                                        <div class="uk-card-media-top d-flex align-items-center">
-                                            <img class="d-block" src="./assets/img/links_slide_1.png" alt="">
-                                        </div>
-                                        <div class="uk-card-body">
-                                            <h3 class="uk-card-title">
-                                              Исполнение поручений и указаний Президента Российской Федерации
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="uk-card uk-card-default">
-                                        <div class="uk-card-media-top">
-                                            <img src="./assets/img/links_slide_2.png" alt="">
-                                        </div>
-                                        <div class="uk-card-body">
-                                            <h3 class="uk-card-title">
-                                              Официальный сайт правительства Алтайского края
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="uk-card uk-card-default">
-                                        <div class="uk-card-media-top">
-                                            <img src="./assets/img/links_slide_3.png" alt="">
-                                        </div>
-                                        <div class="uk-card-body">
-                                            <h3 class="uk-card-title">
-                                              Бесплатная юридическая помощь
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="uk-card uk-card-default">
-                                        <div class="uk-card-media-top">
-                                            <img src="./assets/img/links_slide_4.png" alt="">
-                                        </div>
-                                        <div class="uk-card-body">
-                                            <h3 class="uk-card-title">
-                                              Государственная служба
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="uk-card uk-card-default">
-                                        <div class="uk-card-media-top">
-                                            <img src="./assets/img/links_slide_5.png" alt="">
-                                        </div>
-                                        <div class="uk-card-body">
-                                            <h3 class="uk-card-title">
-                                              Нацпроект «Производительность труда и поддержка занятости»
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="uk-card uk-card-default">
-                                        <div class="uk-card-media-top d-flex align-items-center">
-                                            <img class="d-block" src="./assets/img/links_slide_1.png" alt="">
-                                        </div>
-                                        <div class="uk-card-body">
-                                            <h3 class="uk-card-title">
-                                              Исполнение поручений и указаний Президента Российской Федерации
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                            <a class="uk-position-bottom-right uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous">
-                              <img src="./assets/img/carousel_prev_gray_icon.svg" alt="">
-                            </a>
-                            <a class="uk-position-bottom-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next">
-                              <img src="./assets/img/carousel_next_gray_icon.svg" alt="">
-                            </a>
-                        </div>
-
-                        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
-
-                    </div>
+                </div>
+              </div>
+            </section>
+            <section class="is-quiz pb-3">
+              <div class="row d-flex">
+                <div class="col-lg-6 d-flex">
+                  <div class="is-quiz__banner d-flex align-items-center justify-content-center">
+                    <a href="#" class="d-flex mx-auto">
+                      Место для баннера
+                    </a>
                   </div>
                 </div>
-              </section>
-              <section class="is-cities mb-3">
-                <h2 class="is-cities__title d-block">
-                  Города и районы Алтайского края
-                </h2>
-                <div class="row">
-                  <div class="col-md-12">
-                    <p class="is-cities__item">
-                      <span class="img d-block">
-                        <img src="./assets/img/cities_rainy_icon.svg" alt="">
-                      </span>
-                      <span class="text d-block">
-                        Из оперативных сводок управления МЧС по Алтайскому краю: гидрологическая обстановка в крае стабильная, продолжается процесс вскрытия рек, угрозы подтопления населенных пунктов на данный момент нет. Такое сообщение алтайских спасателей в этом году было наиболее распространенным.
-                      </span>
+                <div class="col-lg-6 d-flex">
+                  <div class="is-quiz__content">
+                    <h3 class="title">
+                      Принять участие в опросе
+                    </h3>
+                    <p class="description">
+                      "Оценка эффективности работы  руководителей государственных и муниципальных служб, органов местного самоуправления в 2019 году"
                     </p>
-                    <p class="is-cities__item">
-                      <span class="img d-block">
-                        <img src="./assets/img/cities_snowy_icon.svg" alt="">
-                      </span>
-                      <span class="text d-block">
-                        Из оперативных сводок управления МЧС по Алтайскому краю: гидрологическая обстановка в крае стабильная, продолжается процесс вскрытия рек, угрозы подтопления населенных пунктов на данный момент нет. Такое сообщение алтайских спасателей в этом году было наиболее распространенным.
-                      </span>
-                    </p>
-                    <p class="is-cities__item">
-                      <span class="img d-block">
-                        <img src="./assets/img/cities_cloudy_icon.svg" alt="">
-                      </span>
-                      <span class="text d-block">
-                        Из оперативных сводок управления МЧС по Алтайскому краю: гидрологическая обстановка в крае стабильная, продолжается процесс вскрытия рек, угрозы подтопления населенных пунктов на данный момент нет. Такое сообщение алтайских спасателей в этом году было наиболее распространенным.
-                      </span>
-                    </p>
-                    <img src="./assets/img/cities_map.png" alt="" class="img-fluid">
+                    <a href="#" class="btn">
+                      Пройти опрос
+                    </a>
                   </div>
                 </div>
-              </section>
-              <section class="is-banners">
-                <div class="row">
-                  <div class="col-lg-4">
-                    <div class="is-banners__item">
-                      <p class="default">
-                        Место для баннера
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <div class="is-banners__item international">
-                      <p class="title">
-                        Международные соглашения
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <div class="is-banners__item massmedia">
-                      <p class="title">
-                        СМИ
-                      </p>
-                    </div>
+              </div>
+            </section>
+            <section class="is-links mb-3">
+              <h2 class="is-links__title">
+                Полезные ссылки
+              </h2>
+              <div class="row">
+                <div class="col-md-12">
+                  <div uk-slider="center: false" class="mt-3">
+
+                      <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                          <ul class="uk-slider-items uk-child-width-1-5@s">
+                              <li>
+                                  <div class="uk-card uk-card-default">
+                                      <div class="uk-card-media-top d-flex align-items-center">
+                                          <img class="d-block" src="./assets/img/links_slide_1.png" alt="">
+                                      </div>
+                                      <div class="uk-card-body">
+                                          <h3 class="uk-card-title">
+                                            Исполнение поручений и указаний Президента Российской Федерации
+                                          </h3>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <div class="uk-card uk-card-default">
+                                      <div class="uk-card-media-top">
+                                          <img src="./assets/img/links_slide_2.png" alt="">
+                                      </div>
+                                      <div class="uk-card-body">
+                                          <h3 class="uk-card-title">
+                                            Официальный сайт правительства Алтайского края
+                                          </h3>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <div class="uk-card uk-card-default">
+                                      <div class="uk-card-media-top">
+                                          <img src="./assets/img/links_slide_3.png" alt="">
+                                      </div>
+                                      <div class="uk-card-body">
+                                          <h3 class="uk-card-title">
+                                            Бесплатная юридическая помощь
+                                          </h3>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <div class="uk-card uk-card-default">
+                                      <div class="uk-card-media-top">
+                                          <img src="./assets/img/links_slide_4.png" alt="">
+                                      </div>
+                                      <div class="uk-card-body">
+                                          <h3 class="uk-card-title">
+                                            Государственная служба
+                                          </h3>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <div class="uk-card uk-card-default">
+                                      <div class="uk-card-media-top">
+                                          <img src="./assets/img/links_slide_5.png" alt="">
+                                      </div>
+                                      <div class="uk-card-body">
+                                          <h3 class="uk-card-title">
+                                            Нацпроект «Производительность труда и поддержка занятости»
+                                          </h3>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <div class="uk-card uk-card-default">
+                                      <div class="uk-card-media-top d-flex align-items-center">
+                                          <img class="d-block" src="./assets/img/links_slide_1.png" alt="">
+                                      </div>
+                                      <div class="uk-card-body">
+                                          <h3 class="uk-card-title">
+                                            Исполнение поручений и указаний Президента Российской Федерации
+                                          </h3>
+                                      </div>
+                                  </div>
+                              </li>
+                          </ul>
+                          <a class="uk-position-bottom-right uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous">
+                            <img src="./assets/img/carousel_prev_gray_icon.svg" alt="">
+                          </a>
+                          <a class="uk-position-bottom-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next">
+                            <img src="./assets/img/carousel_next_gray_icon.svg" alt="">
+                          </a>
+                      </div>
+
+                      <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
                   </div>
                 </div>
-              </section>
-            </div>
+              </div>
+            </section>
+            <section class="is-cities mb-3">
+              <h2 class="is-cities__title d-block">
+                Города и районы Алтайского края
+              </h2>
+              <div class="row">
+                <div class="col-md-12">
+                  <p class="is-cities__item">
+                    <span class="img d-block">
+                      <img src="./assets/img/cities_rainy_icon.svg" alt="">
+                    </span>
+                    <span class="text d-block">
+                      Из оперативных сводок управления МЧС по Алтайскому краю: гидрологическая обстановка в крае стабильная, продолжается процесс вскрытия рек, угрозы подтопления населенных пунктов на данный момент нет. Такое сообщение алтайских спасателей в этом году было наиболее распространенным.
+                    </span>
+                  </p>
+                  <p class="is-cities__item">
+                    <span class="img d-block">
+                      <img src="./assets/img/cities_snowy_icon.svg" alt="">
+                    </span>
+                    <span class="text d-block">
+                      Из оперативных сводок управления МЧС по Алтайскому краю: гидрологическая обстановка в крае стабильная, продолжается процесс вскрытия рек, угрозы подтопления населенных пунктов на данный момент нет. Такое сообщение алтайских спасателей в этом году было наиболее распространенным.
+                    </span>
+                  </p>
+                  <p class="is-cities__item">
+                    <span class="img d-block">
+                      <img src="./assets/img/cities_cloudy_icon.svg" alt="">
+                    </span>
+                    <span class="text d-block">
+                      Из оперативных сводок управления МЧС по Алтайскому краю: гидрологическая обстановка в крае стабильная, продолжается процесс вскрытия рек, угрозы подтопления населенных пунктов на данный момент нет. Такое сообщение алтайских спасателей в этом году было наиболее распространенным.
+                    </span>
+                  </p>
+                  <img src="./assets/img/cities_map.png" alt="" class="img-fluid">
+                </div>
+              </div>
+            </section>
+            <section class="is-banners">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="is-banners__item">
+                    <p class="default">
+                      Место для баннера
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="is-banners__item international">
+                    <p class="title">
+                      Международные соглашения
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="is-banners__item massmedia">
+                    <p class="title">
+                      СМИ
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
           </div>
-
           <footer class="is-footer">
             <div class="container">
               <div class="row">
-                <div class="col-lg-4 logos">
-                  <div class="img">
-                    <img src="./assets/img/footer_logo.png" alt="">
-                  </div>
-                  <div class="text">
-                    <p class="address">
-                      656049, Алтайский край, ﻿г. Барнаул, пр. Ленина, 59
-                    </p>
-                    <p class="copyright">
-                      Официальный сайт Правительства Алтайского края &copy; 2020
-                    </p>
-                  </div>
+                <div class="col-lg-4">
+                  1
                 </div>
-                <div class="offset-lg-1 col-lg-4 contacts">
-                  <div class="info">
-                    <p>
-                      <a class="link" href="mailto:info@altairegion22.ru">
-                        E-mail: info@altairegion22.ru
-                      </a>
-                      <br>
-                      <a class="link" href="tel:+7(3852) 206-229">
-                        Телефон: (3852) 206-229
-                      </a>
-                    </p>
-                    <img src="./assets/img/rambler_counter.png" alt="">
-                    <img src="./assets/img/mailru_counter.png" alt="">
-                  </div>
-                  <div class="social">
-                    2
-                  </div>
+                <div class="offset-lg-1 col-lg-4">
+                  2
                 </div>
                 <div class="col-lg-3">
                   3
