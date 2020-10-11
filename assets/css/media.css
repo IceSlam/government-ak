@@ -20,6 +20,11 @@
     opacity: 1;
   }
 
+  main .is-content {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
   .is-navbar__top .nav-item a span {
     display: none;
   }
@@ -43,8 +48,17 @@
     margin-left: .05rem !important;
   }
 
+  .is-page .is-header {
+    padding: 1.5rem .5rem !important;
+  }
+
+  .is-page .is-header .col-md-5.d-flex.align-items-center.pl-5 {
+    margin-right: 0 !important;
+    padding-left: 1rem !important;
+  }
+
   .is-page .is-header .is-socials {
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 1rem;
   }
 
@@ -59,6 +73,76 @@
 
   .is-page .is-header__title .text .sub {
     font-size: .85rem;
+  }
+
+  .is-index .is-announcement .is-announcement__announce {
+    margin-top: 1rem !important;
+    height: auto;
+    max-height: 100px;
+  }
+
+  .is-index .is-announcement__announce-content p {
+    margin: 0 !important;
+    padding: .5rem;
+  }
+
+  .is-index .is-projects__card .uk-slider .uk-card .uk-card-media-top {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+  }
+
+  .is-index .is-quiz__banner {
+    display: -webkit-flex;
+    min-height: 100px;
+    margin-bottom: 1rem;
+  }
+
+  .is-index .is-quiz__content .btn {
+    display: block;
+  }
+
+  .is-index .is-links .uk-slider .uk-card-default {
+    max-width: none !important;
+  }
+
+  .is-index .is-links .uk-slider .uk-card-default img {
+    margin: 0 auto;
+  }
+
+  .is-page .is-footer .logos {
+    padding-left: .75rem;
+    margin-bottom: 1rem;
+  }
+
+  .is-page .is-footer .info .d-inline-block {
+    display: block !important;
+    text-align: center;
+  }
+
+  .is-page .is-footer .info .d-inline-flex {
+    display: flex !important;
+    margin-top: 1rem;
+    margin: 1rem auto !important;
+    justify-content: center;
+  }
+
+  .is-page .is-footer .is-socials {
+    margin: 1rem auto !important;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+  }
+
+  .is-page .is-footer .is-socials .btn {
+    margin: 0 .5rem;
+  }
+
+  .is-page .is-footer .is-footer__mistake,
+  .is-page .is-footer .is-footer__developer {
+    text-align: center;
   }
 
 }
