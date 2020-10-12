@@ -429,6 +429,7 @@
   .is-page .is-footer .logos {
     padding-left: .75rem;
     margin-bottom: 1rem;
+    justify-content: center;
   }
 
   .is-page .is-footer .info .d-inline-block {
