@@ -475,3 +475,43 @@
     width: 50%;
   }
 }
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+  aside {
+    max-width: 22% !important;
+  }
+
+  main {
+    max-width: 78% !important;
+  }
+
+  .is-page .is-header .col-lg-5.d-flex.align-items-center.pl-5 {
+    margin-right: -3rem !important;
+    padding-left: 0 !important;
+  }
+
+  .is-page .is-header__title .text .title {
+    font-size: 1.25rem;
+  }
+
+  .is-page .is-header__title .text .sub {
+    font-size: .75rem;
+  }
+
+  .is-index .is-themes .is-themes__slider-col,
+  .is-index .is-themes .is-themes__cards-col {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .is-index .is-news .is-news__subscribe {
+    font-size: .5rem;
+  }
+
+
+
+  .uk-child-width-1-5\@s > * {
+    width: 33.333%;
+  }
+
+}
