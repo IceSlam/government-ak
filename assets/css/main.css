@@ -17,6 +17,8 @@ a {
 main {
   background: #F3F6F9;
   padding: 0 !important;
+  margin-left: 240px;
+  padding-top: 40px !important;
 }
 
 main .is-content {
@@ -32,6 +34,8 @@ aside {
   background: #E4EDF5;
   box-shadow: inset -1px 0px 0px #E9F0F8;
   padding: 0 !important;
+  position: fixed;
+  padding-top: 40px !important;
 }
 
 aside.show {
@@ -107,7 +111,7 @@ aside.show {
 
 .is-sidebar .is-sidebar__menu .nav-item {
   border-top: 1px solid #D1DEE9;
-  padding: 1.25rem;
+  padding: .75rem 1.25rem;
 }
 
 .is-sidebar .is-sidebar__menu .nav-link {
@@ -120,10 +124,10 @@ aside.show {
   cursor: pointer;
 }
 
-.is-sidebar .is-sidebar__menu .nav-item div {
+.is-sidebar .is-sidebar__menu .nav-item .is-subm {
   width: 0;
   max-width: 240px;
-  background: #ccc;
+  background: #FFFFFF;
   transition: all .625s;
   position: absolute;
   top: 0;
@@ -134,12 +138,14 @@ aside.show {
   opacity: 0;
 }
 
-.is-sidebar .is-sidebar__menu .nav-item div.open {
+.is-sidebar .is-sidebar__menu .nav-item .is-subm.open {
   width: 100%;
   transform: translateX(220px);
   transition: all .625s;
   visibility: visible;
   opacity: 1;
+  -webkit-box-shadow: -30px 0px 40px rgba(0,0,0,.5);
+  box-shadow: -30px 0px 40px rgba(0,0,0,.5);
 }
 
 .is-sidebar .is-sidebar__date {
@@ -212,6 +218,8 @@ aside.show {
   -webkit-box-shadow: none;
   box-shadow: none;
   z-index: 10;
+  position: fixed;
+  width: 100%;
 }
 
 .is-page .is-navbar__top li {
@@ -1334,4 +1342,13 @@ aside.show {
 .is-page .is-footer .is-footer__developer:hover svg g {
   opacity: 1;
   transition: opacity .625s;
+}
+
+.is-index .is-cities .is-cities__map path {
+  transition: all .625s;
+}
+
+.is-index .is-cities .is-cities__map path:hover  {
+  fill: #2B5D84;
+  transition: all .625s;
 }

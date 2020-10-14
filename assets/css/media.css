@@ -11,6 +11,10 @@
     opacity: 0;
   }
 
+  main {
+    margin-left: 0 !important;
+  }
+
   aside.show {
     height: 100%;
     width: 100%;
@@ -166,6 +170,10 @@
     visibility: visible;
     transition: all .625s;
     opacity: 1;
+  }
+
+  main {
+    margin-left: 0 !important;
   }
 
   main .container {
@@ -330,6 +338,10 @@
     visibility: visible;
     transition: all .625s;
     opacity: 1;
+  }
+
+  main {
+    margin-left: 0 !important;
   }
 
   main .is-content {
