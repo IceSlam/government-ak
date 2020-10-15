@@ -510,6 +510,10 @@
     font-size: .75rem;
   }
 
+  .is-page .is-sidebar .is-sidebar__events {
+    padding: 12px 15px !important;
+  }
+
   .is-index .is-themes .is-themes__slider-col,
   .is-index .is-themes .is-themes__cards-col {
     max-width: 100%;
@@ -545,4 +549,17 @@
     order: 1;
   }
 
+}
+
+@media screen and (min-width:1200px) and (max-width:1399px) {
+  .is-sidebar .is-sidebar__events {
+    padding: 12px 15px;
+  }
+
+  .is-sidebar .is-sidebar__menu .nav-link {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    font-size: .85rem;
+    line-height: 100%;
+  }
 }
