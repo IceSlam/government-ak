@@ -125,17 +125,22 @@ aside.show {
 }
 
 .is-sidebar .is-sidebar__menu .nav-item .is-subm {
-  width: 0;
+  width: 100%;
   max-width: 240px;
   background: #FFFFFF;
   transition: all .625s;
   position: absolute;
   top: 0;
   padding: 3rem 0 0;
-  z-index: 0;
+  z-index: 99999;
   color: red;
-  visibility: hidden;
-  opacity: 0;
+  visibility: visible;
+  opacity: 1;
+  background: #ccc;
+  transform: translateX(240px);
+  height: 100%;
+  list-style: none;
+  left: 0;
 }
 
 .is-sidebar .is-sidebar__menu .nav-item .is-subm.open {
